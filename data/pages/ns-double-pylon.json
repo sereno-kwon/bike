@@ -1,0 +1,427 @@
+{
+ "slug": "ns-double-pylon",
+ "brand": "moulton",
+ "brandName": "Moulton Bicycles",
+ "brandShort": "Moulton",
+ "name": "Moulton NS Double Pylon",
+ "nameShort": "NS Double Pylon",
+ "ko": "몰튼 NS 더블 파일런",
+ "koShort": "NS 더블 파일런",
+ "accent": "#9e1b22",
+ "badge": "2026",
+ "category": "New Series · Road",
+ "ldCategory": "미니벨로",
+ "manufacturerUrl": "https://www.moultonbicycles.co.uk/",
+ "offers": {
+  "low": 52900000,
+  "high": 52900000
+ },
+ "seo": {
+  "title": "몰튼 NS 더블 파일런 | Moulton NS Double Pylon | 루비워크샵",
+  "description": "몰튼 NS 더블 파일런(Moulton NS Double Pylon). 항공우주 등급 스테인리스를 손으로 연마한 뉴 시리즈의 플래그십. 트윈 파일런 구조의 분리형 프레임. 하이라이트, 서스펜션, 빌드 구성, 사양과 가격, 루비워크샵 반포 쇼룸 시승 상담 안내.",
+  "ogTitle": "몰튼 NS 더블 파일런 | Moulton NS Double Pylon",
+  "og": "항공우주 등급 스테인리스를 손으로 연마한 뉴 시리즈의 플래그십. 트윈 파일런 구조의 분리형 프레임. 반포 쇼룸에서 상담하고 시승하실 수 있습니다.",
+  "product": "NS 더블 파일런은 뉴 시리즈의 최상위 모델이자, 몰튼 스페이스프레임이 구조적으로 가장 응축된 형태입니다. 항공우주 등급 스테인리스 스틸로 만들고 손으로 연마해 거울 같은 광택을 냈습니다. 일반적인 시트 튜브와 헤드 튜브 자리에 스테인리스 '파일런'이 들어서고, 하중은 실버 브레이징으로 이은 가는 튜브들을 따라 흐릅니다. 일체형 리어 포크, 하이드로라스틱 리어 서스펜션, 플렉시터 프론트 서스펜션은 그대로 이어받았습니다."
+ },
+ "card": {
+  "img": {
+   "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-ns-double-pylon-stainless.jpg?width=1920",
+   "alt": "몰튼 NS 더블 파일런 측면"
+  }
+ },
+ "hero": {
+  "img": {
+   "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-ns-double-pylon-stainless-hall-lawn-2.jpg?width=2400",
+   "alt": "몰튼 NS 더블 파일런"
+  },
+  "price": "52,900,000원",
+  "priceNote": "완성차 기준. 사이즈와 부품 구성에 따라 달라집니다<sup>1</sup>",
+  "desc": "항공우주 등급 스테인리스를 손으로 연마한 뉴 시리즈의 플래그십. 트윈 파일런 구조의 분리형 프레임.",
+  "stats": [
+   {
+    "k": "휠 사이즈",
+    "v": "20인치"
+   },
+   {
+    "k": "프레임",
+    "v": "분리형"
+   },
+   {
+    "k": "무게",
+    "v": "10.1 kg"
+   },
+   {
+    "k": "영국 생산",
+    "v": "8~10주"
+   }
+  ]
+ },
+ "band": "반포 쇼룸에서 몰튼 전 라인업을 보고 데모 바이크로 직접 타보실 수 있습니다. 방문 전에 상담을 신청해 주시면 사이즈를 맞춰 준비해 드립니다.",
+ "statement": {
+  "eyebrow": "Bradford on Avon, England",
+  "title": "The pinnacle of the New Series.",
+  "sub": "뉴 시리즈의 정점.",
+  "desc": "NS 더블 파일런은 뉴 시리즈의 최상위 모델이자, 몰튼 스페이스프레임이 구조적으로 가장 응축된 형태입니다. 항공우주 등급 스테인리스 스틸로 만들고 손으로 연마해 거울 같은 광택을 냈습니다. 일반적인 시트 튜브와 헤드 튜브 자리에 스테인리스 '파일런'이 들어서고, 하중은 실버 브레이징으로 이은 가는 튜브들을 따라 흐릅니다. 일체형 리어 포크, 하이드로라스틱 리어 서스펜션, 플렉시터 프론트 서스펜션은 그대로 이어받았습니다.",
+  "img": {
+   "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-ns-double-pylon-stainless-hall-lawn.jpg?width=1920",
+   "alt": "몰튼 NS 더블 파일런 라이프스타일"
+  }
+ },
+ "highlights": {
+  "title": "Moulton NS Double Pylon",
+  "sub": "몰튼이 만드는 차이.",
+  "rows": [
+   {
+    "t": "Pylon Spaceframe",
+    "s": "파일런 스페이스프레임",
+    "desc": "프레임 소재는 항공우주 스테인리스 스틸, Reynolds 931 스테인리스 (포크). 실버 필렛 브레이징. 트윈 튜브 '파일런' 시트 마스트와 헤드 튜브. 튜블러 지그재그.",
+    "img": {
+     "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-speed-polished-stainless-centre-frame-section-close-up.jpg?width=1920",
+     "alt": "몰튼 NS 더블 파일런 프레임 디테일"
+    }
+   },
+   {
+    "t": "Front & Rear Suspension",
+    "s": "프론트 Flexitor®, 리어 Hydrolastic®",
+    "desc": "몰튼에서는 바퀴만 상하로 움직입니다. 노면의 충격 에너지는 라이더에게 전달되는 대신 서스펜션에 저장되고 제어됩니다.",
+    "more": "비틀림 전단 상태의 고무 요소가 위치 결정, 스프링, 댐핑을 한 몸에서 해냅니다. 범프 스톱과 리바운드 스톱을 조절할 수 있고, 소프트 락아웃은 오르막이나 스프린트에서 트래블을 줄여 줍니다. 고무 콘 스프링과 내부 유체 댐핑을 결합한 유닛입니다. 유체가 정밀 밸브를 지나 보조 챔버로 이동하며 댐핑을 만들고, 내부 공기 챔버가 유체를 가압합니다. 완전히 밀폐된 구조라 윤활이 필요 없습니다.",
+    "img": {
+     "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-ns-double-pylon-stainless-angle-1.jpg?width=1920",
+     "alt": "몰튼 NS 더블 파일런 2"
+    }
+   },
+   {
+    "t": "Separable",
+    "s": "분리형 프레임",
+    "desc": "프레임을 둘로 나눠 차 트렁크나 여행 가방에 담을 수 있습니다. 결합부는 공구 하나로 풀고 조입니다. 결합 방식은 킹핀 + 스테인리스 로크너트.",
+    "img": {
+     "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-ns-double-pylon-stainless-angle-2.jpg?width=1920",
+     "alt": "몰튼 NS 더블 파일런 3"
+    }
+   }
+  ]
+ },
+ "technology": {
+  "eyebrow": "Key Features",
+  "tab": "핵심 기능",
+  "title": "Key Features",
+  "sub": "핵심 기능",
+  "img": {
+   "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-ns-double-pylon-stainless.jpg?width=1920",
+   "alt": "몰튼 NS 더블 파일런 측면"
+  },
+  "ratio": "16/10",
+  "items": [
+   {
+    "t": "Hydrolastic®",
+    "s": "하이드로라스틱 리어 서스펜션",
+    "d": "고무 콘 스프링과 내부 유체 댐핑을 결합한 밀폐형 유닛. 점진적인 스프링 레이트와 하중 아래에서의 안정성을 제공합니다."
+   },
+   {
+    "t": "Flexitor®",
+    "s": "플렉시터 프론트 서스펜션",
+    "d": "비틀림 전단 상태의 고무 요소가 위치 결정과 스프링, 댐핑을 한 몸에서 해냅니다. 미끄러지는 면이 없어 정지 마찰이 사실상 없습니다."
+   },
+   {
+    "t": "20\" Wheel",
+    "s": "20인치 휠",
+    "d": "작은 휠은 가속이 빠르고 공기저항이 적습니다. 노면의 충격은 휠 대신 서스펜션이 받아냅니다."
+   },
+   {
+    "t": "Separable",
+    "s": "분리형 프레임",
+    "d": "프레임을 둘로 나눠 차 트렁크나 여행 가방에 담을 수 있습니다. 결합부는 공구 하나로 풀고 조입니다."
+   }
+  ]
+ },
+ "configure": {
+  "eyebrow": "Builds",
+  "title": "Builds",
+  "sub": "빌드 구성",
+  "desc": "표준 빌드를 기준으로 휠, 구동계, 핸들바, 안장, 페달까지 상담을 통해 바꿀 수 있습니다.",
+  "pkgs": [
+   {
+    "eyebrow": "Build 01",
+    "t": "Campagnolo Super Record 2x12",
+    "list": [
+     "변속 방식: 디레일러",
+     "브레이크 타입: 캘리퍼",
+     "핸들바 타입: 드롭",
+     "크랭크셋: Campagnolo Super Record Carbon Ti 53/39",
+     "무게: 10.1 kg / 22.3 lb"
+    ]
+   }
+  ]
+ },
+ "process": {
+  "tab": "주문",
+  "eyebrow": "Order",
+  "title": "From Bradford on Avon",
+  "sub": "주문에서 출고까지",
+  "steps": [
+   {
+    "t": "상담, 시승",
+    "p": "반포 쇼룸에서 실물을 보고 데모 바이크로 타본 뒤, 사이즈와 빌드를 정합니다."
+   },
+   {
+    "t": "영국 공장 생산",
+    "p": "주문 확정 후 영국 브래드포드 온 에이번 공장에서 생산합니다. 생산 리드타임은 약 8~10주입니다.<sup>2</sup>"
+   },
+   {
+    "t": "피팅, 출고",
+    "p": "입고 후 루비워크샵에서 조립과 점검, 최종 피팅을 마치고 인도합니다."
+   }
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-ns-double-pylon-stainless.jpg?width=1920",
+   "alt": "몰튼 NS 더블 파일런 측면"
+  },
+  {
+   "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-ns-double-pylon-stainless-angle-1.jpg?width=1920",
+   "alt": "몰튼 NS 더블 파일런 2"
+  },
+  {
+   "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-ns-double-pylon-stainless-angle-2.jpg?width=1920",
+   "alt": "몰튼 NS 더블 파일런 3"
+  },
+  {
+   "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-speed-polished-stainless-centre-frame-section-close-up.jpg?width=1920",
+   "alt": "몰튼 NS 더블 파일런 프레임 디테일"
+  },
+  {
+   "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-ns-double-pylon-stainless-hall-lawn.jpg?width=1920",
+   "alt": "몰튼 NS 더블 파일런 라이프스타일"
+  }
+ ],
+ "standard": [
+  {
+   "t": "데모 바이크 시승",
+   "body": "루비워크샵 반포 쇼룸에서 몰튼 데모 바이크를 상시 운영합니다. 시승을 원하시면 방문 일정을 미리 알려주세요."
+  },
+  {
+   "t": "몰튼 10년 프레임 보증",
+   "body": "몰튼 바이시클 컴퍼니는 기본 1년 보증에 더해 프레임과 포크 10년, 고무 서스펜션 부품 5년의 확장 보증을 무상으로 제공합니다. 구매일로부터 90일 이내에 등록하셔야 적용됩니다."
+  },
+  {
+   "t": "루비케어 1년",
+   "body": "출고일로부터 1년 동안 루비워크샵의 루비케어 무상 보증이 적용됩니다."
+  }
+ ],
+ "specs": {
+  "groups": [
+   {
+    "t": "프레임",
+    "rows": [
+     [
+      "휠 사이즈",
+      "20\" (406mm)"
+     ],
+     [
+      "프론트 서스펜션",
+      "Flexitor®"
+     ],
+     [
+      "리어 서스펜션",
+      "Hydrolastic®"
+     ],
+     [
+      "분리 여부",
+      "분리형"
+     ],
+     [
+      "프레임 결합 방식",
+      "킹핀 + 스테인리스 로크너트"
+     ],
+     [
+      "프레임 소재",
+      "항공우주 스테인리스 스틸, Reynolds 931 스테인리스 (포크)"
+     ],
+     [
+      "프레임 구조",
+      "실버 필렛 브레이징. 트윈 튜브 '파일런' 시트 마스트와 헤드 튜브. 튜블러 지그재그."
+     ],
+     [
+      "물병 케이지 마운트",
+      "2세트: 파일런 시트 마스트 앞·뒤"
+     ],
+     [
+      "프레임 마감",
+      "폴리시드 스테인리스"
+     ]
+    ]
+   },
+   {
+    "t": "빌드 사양, Campagnolo Super Record 2x12",
+    "rows": [
+     [
+      "라이딩 카테고리",
+      "로드 & 레이스"
+     ],
+     [
+      "브레이크 타입",
+      "캘리퍼"
+     ],
+     [
+      "핸들바 타입",
+      "드롭"
+     ],
+     [
+      "변속 방식",
+      "디레일러"
+     ],
+     [
+      "프론트 디레일러",
+      "Campagnolo Super Record"
+     ],
+     [
+      "리어 디레일러",
+      "Campagnolo Super Record"
+     ],
+     [
+      "크랭크셋",
+      "Campagnolo Super Record Carbon Ti 53/39"
+     ],
+     [
+      "카세트",
+      "Moulton CNC 10-30 12 speed CrMo/Ti/Al"
+     ],
+     [
+      "체인",
+      "Connex 12s0"
+     ],
+     [
+      "바텀 브래킷",
+      "Campagnolo Ultra-Torque (ceramic)"
+     ],
+     [
+      "기어 레인지 (인치)",
+      "26-99\" (53/39t)"
+     ],
+     [
+      "브레이크",
+      "TRP RG957 sidepull 57 caliper"
+     ],
+     [
+      "변속·브레이크 레버",
+      "Campagnolo Super Record"
+     ],
+     [
+      "핸들바",
+      "Deda Speciale classic drop (44 or 42 o-o)"
+     ],
+     [
+      "바 테이프·그립",
+      "Brooks Leather Antique Brown"
+     ],
+     [
+      "스템",
+      "Moulton Wishbone Q (100, 150 or 170mm)"
+     ],
+     [
+      "헤드셋",
+      "Moulton custom lightweight 1\" sealed"
+     ],
+     [
+      "안장",
+      "Brooks B17 Ti Leather Antique Brown"
+     ],
+     [
+      "시트포스트",
+      "2-bolt forged AL in-line, 27.2x350"
+     ],
+     [
+      "타이어",
+      "Schwalbe One (folding) 28-406"
+     ],
+     [
+      "림",
+      "Moulton MT20 Black (CNC brake track)"
+     ],
+     [
+      "리어 허브",
+      "Moulton custom forged 28h silver"
+     ],
+     [
+      "프론트 허브",
+      "Moulton custom forged 28h silver 70mm"
+     ],
+     [
+      "스포크",
+      "Sapim Laser/Force butted (differential)"
+     ],
+     [
+      "머드가드",
+      "액세서리로 별도 구매 가능"
+     ],
+     [
+      "머드가드 클리어런스",
+      "Up to 28mm tyre section"
+     ],
+     [
+      "페달",
+      "미포함"
+     ],
+     [
+      "무게",
+      "10.1 kg / 22.3 lb"
+     ]
+    ]
+   }
+  ],
+  "priceSup": "<sup>1</sup>",
+  "prices": [
+   {
+    "eyebrow": "Complete",
+    "v": "52,900,000",
+    "unit": "원",
+    "note": "완성차"
+   }
+  ]
+ },
+ "more": {
+  "eyebrow": "More from Moulton",
+  "title": "같은 원리, 다른 성격.",
+  "sub": "몰튼의 다른 모델."
+ },
+ "close": {
+  "sub": "반포 쇼룸에서 직접 타보세요.",
+  "stats": [
+   {
+    "k": "완성차",
+    "cur": "KRW",
+    "v": "52,900,000<sup>1</sup>"
+   },
+   {
+    "k": "휠 사이즈",
+    "v": "20인치"
+   },
+   {
+    "k": "프레임",
+    "v": "분리형"
+   },
+   {
+    "k": "시승",
+    "v": "데모 바이크"
+   }
+  ]
+ },
+ "links": [
+  {
+   "label": "몰튼 바이시클 코리아",
+   "href": "https://moultonbicycles.co.kr/ns-double-pylon/"
+  }
+ ],
+ "notes": {
+  "ol": [
+   "표기 가격은 표준 빌드 기준입니다. 실제 금액은 사이즈와 부품 구성에 따라 달라지며, 상담에서 견적을 안내해 드립니다.",
+   "생산 리드타임은 몰튼 바이시클 컴퍼니가 안내하는 기준이며 주문 시점에 따라 달라질 수 있습니다."
+  ],
+  "ul": [
+   "이미지는 이해를 돕기 위한 것으로 실제 출고 사양과 다를 수 있습니다. 사양과 가격은 사전 예고 없이 바뀔 수 있습니다.",
+   "사진 출처: Moulton Bicycle Company"
+  ]
+ },
+ "footerCopy": "Moulton Bicycle Company, Bradford on Avon · Rubi Company, Seoul"
+}

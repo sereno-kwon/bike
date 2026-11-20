@@ -1,0 +1,415 @@
+{
+ "slug": "am-speed",
+ "brand": "moulton",
+ "brandName": "Moulton Bicycles",
+ "brandShort": "Moulton",
+ "name": "Moulton AM Speed",
+ "nameShort": "AM Speed",
+ "ko": "몰튼 AM 스피드",
+ "koShort": "AM 스피드",
+ "accent": "#9e1b22",
+ "badge": "2026",
+ "category": "AM Series · Road",
+ "ldCategory": "미니벨로",
+ "manufacturerUrl": "https://www.moultonbicycles.co.uk/",
+ "offers": {
+  "low": 15700000,
+  "high": 15700000
+ },
+ "seo": {
+  "title": "몰튼 AM 스피드 | Moulton AM Speed | 루비워크샵",
+  "description": "몰튼 AM 스피드(Moulton AM Speed). 레이스 어크로스 아메리카를 위해 개발한 오리지널 AM의 일체형 레이싱 버전. 17인치 휠. 하이라이트, 서스펜션, 빌드 구성, 사양과 가격, 루비워크샵 반포 쇼룸 시승 상담 안내.",
+  "ogTitle": "몰튼 AM 스피드 | Moulton AM Speed",
+  "og": "레이스 어크로스 아메리카를 위해 개발한 오리지널 AM의 일체형 레이싱 버전. 17인치 휠. 반포 쇼룸에서 상담하고 시승하실 수 있습니다.",
+  "product": "AM Speed는 오리지널 AM 몰튼의 일체형 레이싱 버전으로, 레이스 어크로스 아메리카를 염두에 두고 개발되었습니다. 17인치 휠과 클래식 AM 스페이스프레임 구성은 그대로 두면서 더 가볍고 날카로운 성능을 냈습니다. 레이놀즈 725와 카이세이 NiCrMo 스틸, 스테인리스 드롭아웃, 레이스용으로 조율한 서스펜션으로 장시간 고속 내구 주행을 위해 만들어졌습니다. 가장 직선적이고, 집중되고, 역사로 검증된 스피드 몰튼입니다."
+ },
+ "card": {
+  "img": {
+   "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-am-speed-white.jpg?width=1920",
+   "alt": "몰튼 AM 스피드 측면"
+  }
+ },
+ "hero": {
+  "img": {
+   "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/zeb-kyffin-riding-moulton-speed-monaco.jpg?width=2400",
+   "alt": "몰튼 AM 스피드"
+  },
+  "price": "15,700,000원",
+  "priceNote": "완성차 기준. 사이즈와 부품 구성에 따라 달라집니다<sup>1</sup>",
+  "desc": "레이스 어크로스 아메리카를 위해 개발한 오리지널 AM의 일체형 레이싱 버전. 17인치 휠.",
+  "stats": [
+   {
+    "k": "휠 사이즈",
+    "v": "17인치"
+   },
+   {
+    "k": "프레임",
+    "v": "일체형"
+   },
+   {
+    "k": "무게",
+    "v": "9.7 kg"
+   },
+   {
+    "k": "영국 생산",
+    "v": "2~4주"
+   }
+  ]
+ },
+ "band": "반포 쇼룸에서 몰튼 전 라인업을 보고 데모 바이크로 직접 타보실 수 있습니다. 방문 전에 상담을 신청해 주시면 사이즈를 맞춰 준비해 드립니다.",
+ "statement": {
+  "eyebrow": "Bradford on Avon, England",
+  "title": "Born from Race Across America.",
+  "sub": "레이스 어크로스 아메리카에서 태어난 몰튼.",
+  "desc": "AM Speed는 오리지널 AM 몰튼의 일체형 레이싱 버전으로, 레이스 어크로스 아메리카를 염두에 두고 개발되었습니다. 17인치 휠과 클래식 AM 스페이스프레임 구성은 그대로 두면서 더 가볍고 날카로운 성능을 냈습니다. 레이놀즈 725와 카이세이 NiCrMo 스틸, 스테인리스 드롭아웃, 레이스용으로 조율한 서스펜션으로 장시간 고속 내구 주행을 위해 만들어졌습니다. 가장 직선적이고, 집중되고, 역사로 검증된 스피드 몰튼입니다.",
+  "img": {
+   "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-am-speed-riden-by-richard-grigsby-1991.jpg?width=1920",
+   "alt": "몰튼 AM 스피드 라이프스타일"
+  }
+ },
+ "highlights": {
+  "title": "Moulton AM Speed",
+  "sub": "몰튼이 만드는 차이.",
+  "rows": [
+   {
+    "t": "Spaceframe",
+    "s": "스페이스프레임",
+    "desc": "프레임 소재는 Reynolds 725, Kaisei NiCrMo 스틸 (스테인리스 드롭아웃). '샷인' 튜브 필렛 브레이징. 튜블러 지그재그.",
+    "img": {
+     "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-am-speed-white-angle-1.jpg?width=1920",
+     "alt": "몰튼 AM 스피드 2"
+    }
+   },
+   {
+    "t": "Front & Rear Suspension",
+    "s": "프론트 리딩 링크 (크라운), 리어 Monosphere",
+    "desc": "몰튼에서는 바퀴만 상하로 움직입니다. 노면의 충격 에너지는 라이더에게 전달되는 대신 서스펜션에 저장되고 제어됩니다.",
+    "more": "포크 크라운 앞쪽에 떠 있는 포크 스터럽이 스테인리스 리딩 링크 위에서 회전합니다. 스프링 레이트는 용도에 따라 스피드용은 단단하게, 편안함을 위해서는 부드럽게 구성합니다. 유압 유체가 없는 속이 빈 고무 콘 시스템입니다. 콘이 압축과 전단으로 동시에 작동해 스프링 레이트가 매끄럽게 상승하며, 1959년부터 2000년까지 BMC 미니에 쓰인 고무 콘과 같은 원리입니다.",
+    "img": {
+     "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-am-speed-white.jpg?width=1920",
+     "alt": "몰튼 AM 스피드 측면"
+    }
+   },
+   {
+    "t": "Fixed Frame",
+    "s": "일체형 프레임",
+    "desc": "분리 기능을 덜어낸 일체형 프레임. 그만큼 더 가볍고 단단합니다.",
+    "img": {
+     "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-am-speed-white-angle-1.jpg?width=1920",
+     "alt": "몰튼 AM 스피드 2"
+    }
+   }
+  ]
+ },
+ "technology": {
+  "eyebrow": "Key Features",
+  "tab": "핵심 기능",
+  "title": "Key Features",
+  "sub": "핵심 기능",
+  "img": {
+   "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-am-speed-white.jpg?width=1920",
+   "alt": "몰튼 AM 스피드 측면"
+  },
+  "ratio": "16/10",
+  "items": [
+   {
+    "t": "Monosphere",
+    "s": "모노스피어 리어 서스펜션",
+    "d": "유체 없이 속이 빈 고무 콘이 압축과 전단으로 동시에 작동합니다. 댐핑은 고무 자체에서 나와 별도의 댐퍼가 필요 없습니다."
+   },
+   {
+    "t": "Leading Link",
+    "s": "리딩 링크 프론트 서스펜션",
+    "d": "스티어링 컬럼 안의 코일 스프링이 주된 지지를 맡고, 라이더의 체중과 취향에 맞춰 라이드 하이트와 댐핑을 조절할 수 있습니다."
+   },
+   {
+    "t": "17\" Wheel",
+    "s": "17인치 휠",
+    "d": "1983년 오리지널 AM에서 이어진 17인치 휠. 낮은 무게중심과 빠른 응답성을 만듭니다."
+   },
+   {
+    "t": "Fixed Frame",
+    "s": "일체형 프레임",
+    "d": "분리 기능을 덜어낸 일체형 프레임. 그만큼 더 가볍고 단단합니다."
+   }
+  ]
+ },
+ "configure": {
+  "eyebrow": "Builds",
+  "title": "Builds",
+  "sub": "빌드 구성",
+  "desc": "표준 빌드를 기준으로 휠, 구동계, 핸들바, 안장, 페달까지 상담을 통해 바꿀 수 있습니다.",
+  "pkgs": [
+   {
+    "eyebrow": "Build 01",
+    "t": "Campagnolo Centaur 2x11",
+    "list": [
+     "변속 방식: 디레일러",
+     "브레이크 타입: 캘리퍼",
+     "핸들바 타입: 드롭",
+     "크랭크셋: Campagnolo Centaur Black 52/36 or 58/44",
+     "무게: 9.7 kg / 21.4 lb"
+    ]
+   }
+  ]
+ },
+ "process": {
+  "tab": "주문",
+  "eyebrow": "Order",
+  "title": "From Bradford on Avon",
+  "sub": "주문에서 출고까지",
+  "steps": [
+   {
+    "t": "상담, 시승",
+    "p": "반포 쇼룸에서 실물을 보고 데모 바이크로 타본 뒤, 사이즈와 빌드를 정합니다."
+   },
+   {
+    "t": "영국 공장 생산",
+    "p": "주문 확정 후 영국 브래드포드 온 에이번 공장에서 생산합니다. 생산 리드타임은 약 2~4주입니다.<sup>2</sup>"
+   },
+   {
+    "t": "피팅, 출고",
+    "p": "입고 후 루비워크샵에서 조립과 점검, 최종 피팅을 마치고 인도합니다."
+   }
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-am-speed-white.jpg?width=1920",
+   "alt": "몰튼 AM 스피드 측면"
+  },
+  {
+   "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-am-speed-white-angle-1.jpg?width=1920",
+   "alt": "몰튼 AM 스피드 2"
+  },
+  {
+   "src": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-am-speed-riden-by-richard-grigsby-1991.jpg?width=1920",
+   "alt": "몰튼 AM 스피드 라이프스타일"
+  }
+ ],
+ "standard": [
+  {
+   "t": "데모 바이크 시승",
+   "body": "루비워크샵 반포 쇼룸에서 몰튼 데모 바이크를 상시 운영합니다. 시승을 원하시면 방문 일정을 미리 알려주세요."
+  },
+  {
+   "t": "몰튼 10년 프레임 보증",
+   "body": "몰튼 바이시클 컴퍼니는 기본 1년 보증에 더해 프레임과 포크 10년, 고무 서스펜션 부품 5년의 확장 보증을 무상으로 제공합니다. 구매일로부터 90일 이내에 등록하셔야 적용됩니다."
+  },
+  {
+   "t": "루비케어 1년",
+   "body": "출고일로부터 1년 동안 루비워크샵의 루비케어 무상 보증이 적용됩니다."
+  }
+ ],
+ "specs": {
+  "groups": [
+   {
+    "t": "프레임",
+    "rows": [
+     [
+      "휠 사이즈",
+      "17\""
+     ],
+     [
+      "프론트 서스펜션",
+      "리딩 링크 (크라운)"
+     ],
+     [
+      "리어 서스펜션",
+      "Monosphere"
+     ],
+     [
+      "분리 여부",
+      "일체형"
+     ],
+     [
+      "프레임 소재",
+      "Reynolds 725, Kaisei NiCrMo 스틸 (스테인리스 드롭아웃)"
+     ],
+     [
+      "프레임 구조",
+      "'샷인' 튜브 필렛 브레이징. 튜블러 지그재그."
+     ],
+     [
+      "물병 케이지 마운트",
+      "1세트: 시트 튜브"
+     ],
+     [
+      "프레임 마감",
+      "스토브 에나멜"
+     ]
+    ]
+   },
+   {
+    "t": "빌드 사양, Campagnolo Centaur 2x11",
+    "rows": [
+     [
+      "라이딩 카테고리",
+      "로드 & 레이스"
+     ],
+     [
+      "브레이크 타입",
+      "캘리퍼"
+     ],
+     [
+      "핸들바 타입",
+      "드롭"
+     ],
+     [
+      "변속 방식",
+      "디레일러"
+     ],
+     [
+      "프론트 디레일러",
+      "Campagnolo Centaur Black"
+     ],
+     [
+      "리어 디레일러",
+      "Campagnolo Centaur Black"
+     ],
+     [
+      "크랭크셋",
+      "Campagnolo Centaur Black 52/36 or 58/44"
+     ],
+     [
+      "카세트",
+      "Moulton 9-32"
+     ],
+     [
+      "체인",
+      "Connex 11sX"
+     ],
+     [
+      "바텀 브래킷",
+      "Campagnolo Ultra-Torque"
+     ],
+     [
+      "기어 레인지 (인치)",
+      "19-99\" (52/36t) or 23-109\" (58/44t)"
+     ],
+     [
+      "브레이크",
+      "Tektro R539 DP 57 caliper"
+     ],
+     [
+      "변속·브레이크 레버",
+      "Campagnolo Centaur Black"
+     ],
+     [
+      "핸들바",
+      "Deda Speciale classic drop (44 or 42 o-o)"
+     ],
+     [
+      "바 테이프·그립",
+      "Brooks Cambium Rubber"
+     ],
+     [
+      "스템",
+      "AL ahead stem (90, 110 or 135mm)"
+     ],
+     [
+      "헤드셋",
+      "Moulton custom lightweight 1\" sealed"
+     ],
+     [
+      "안장",
+      "Fizik Antares"
+     ],
+     [
+      "시트포스트",
+      "2-bolt forged AL in-line, 27.2x350"
+     ],
+     [
+      "타이어",
+      "Schwalbe Kojak (Kevlar) 32-369"
+     ],
+     [
+      "림",
+      "Moulton M17 Silver (CNC brake track)"
+     ],
+     [
+      "리어 허브",
+      "Moulton custom forged 28h silver"
+     ],
+     [
+      "프론트 허브",
+      "Moulton custom forged 28h silver"
+     ],
+     [
+      "스포크",
+      "Sapim Laser/Force butted (differential)"
+     ],
+     [
+      "머드가드",
+      "액세서리로 별도 구매 가능"
+     ],
+     [
+      "머드가드 클리어런스",
+      "Up to 32mm tyre section"
+     ],
+     [
+      "페달",
+      "미포함"
+     ],
+     [
+      "무게",
+      "9.7 kg / 21.4 lb"
+     ]
+    ]
+   }
+  ],
+  "priceSup": "<sup>1</sup>",
+  "prices": [
+   {
+    "eyebrow": "Complete",
+    "v": "15,700,000",
+    "unit": "원",
+    "note": "완성차"
+   }
+  ]
+ },
+ "more": {
+  "eyebrow": "More from Moulton",
+  "title": "같은 원리, 다른 성격.",
+  "sub": "몰튼의 다른 모델."
+ },
+ "close": {
+  "sub": "반포 쇼룸에서 직접 타보세요.",
+  "stats": [
+   {
+    "k": "완성차",
+    "cur": "KRW",
+    "v": "15,700,000<sup>1</sup>"
+   },
+   {
+    "k": "휠 사이즈",
+    "v": "17인치"
+   },
+   {
+    "k": "프레임",
+    "v": "일체형"
+   },
+   {
+    "k": "시승",
+    "v": "데모 바이크"
+   }
+  ]
+ },
+ "links": [
+  {
+   "label": "몰튼 바이시클 코리아",
+   "href": "https://moultonbicycles.co.kr/am-speed/"
+  }
+ ],
+ "notes": {
+  "ol": [
+   "표기 가격은 표준 빌드 기준입니다. 실제 금액은 사이즈와 부품 구성에 따라 달라지며, 상담에서 견적을 안내해 드립니다.",
+   "생산 리드타임은 몰튼 바이시클 컴퍼니가 안내하는 기준이며 주문 시점에 따라 달라질 수 있습니다."
+  ],
+  "ul": [
+   "이미지는 이해를 돕기 위한 것으로 실제 출고 사양과 다를 수 있습니다. 사양과 가격은 사전 예고 없이 바뀔 수 있습니다.",
+   "사진 출처: Moulton Bicycle Company"
+  ]
+ },
+ "footerCopy": "Moulton Bicycle Company, Bradford on Avon · Rubi Company, Seoul"
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "sst-wide",
+  "brand": "moulton",
+  "brandName": "Moulton Bicycles",
+  "brandShort": "Moulton",
+  "name": "Moulton SST WIDE",
+  "nameShort": "SST WIDE",
+  "ko": "몰튼 SST 와이드",
+  "koShort": "SST 와이드",
+  "accent": "#9e1b22",
+  "badge": "2026",
+  "category": "Small Wheel · ATB",
+  "ldCategory": "미니벨로",
+  "manufacturerUrl": "https://www.moultonbicycles.co.uk/",
+  "offers": {"low": 5500000, "high": 5500000},
+  "seo": {
+    "title": "몰튼 SST 와이드 | Moulton SST WIDE | 루비워크샵",
+    "description": "몰튼 SST 와이드(Moulton SST WIDE). 406 휠에 최대 50mm 타이어, 리딩링크와 모노스피어 서스펜션의 헤어핀 스페이스프레임. 세 가지 레퍼런스 빌드, 사양과 지오메트리, 반포 몰튼 쇼룸 상담 안내.",
+    "ogTitle": "몰튼 SST 와이드 | Moulton SST WIDE",
+    "og": "작은 바퀴, 넓은 타이어. 몰튼의 승차감을 더 먼 길까지. 반포 몰튼 쇼룸에서 직접 보실 수 있습니다.",
+    "product": "TSR의 설계를 다듬어 뒤틀림 강성은 보강하고 무게는 덜어낸 SST의 와이드 프레임. 406 휠에 최대 50mm 타이어를 지원합니다."
+  },
+  "card": {"img": {"src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/866dd8be3205c.jpg", "alt": "몰튼 SST 와이드 실버그레이 측면"}},
+  "hero": {
+    "img": {"src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/55099274198ec.jpg", "alt": "몰튼 SST 와이드 실버그레이 업라이트 빌드 측면"},
+    "price": "프레임 5,500,000원",
+    "priceNote": "프레임 기준 소비자가. 완성차 가격은 빌드 구성에 따라 달라집니다<sup>3</sup>",
+    "desc": "TSR의 설계에 메스를 대 뒤틀림 강성은 보강하고, 튜빙 사이즈를 바꿔 무게는 덜어냈습니다. 크로몰리 몰튼의 계보를 잇는 SST의 와이드 프레임입니다.",
+    "stats": [
+      {"k": "프레임 판매가", "cur": "KRW", "v": "5,500,000<sup>3</sup>"},
+      {"k": "휠 사이즈", "v": "20″ (406)"},
+      {"k": "타이어 클리어런스", "v": "최대 50 mm<sup>1</sup>"},
+      {"k": "최대 하중", "v": "120 kg"}
+    ]
+  },
+  "band": "실버그레이와 리비에라 블루, 세 가지 레퍼런스 빌드를 반포 몰튼 쇼룸에서 직접 보실 수 있습니다.",
+  "statement": {
+    "eyebrow": "Handbuilt in UK",
+    "title": "작은 바퀴, 넓은 타이어.",
+    "sub": "몰튼의 승차감을 더 먼 길까지.",
+    "desc": "SST는 2015년, TSR의 다음 단계로 소개되었습니다. 콜럼버스 스피릿과 레이놀즈 525 크로몰리 튜브를 필렛 브레이징으로 잇고, 가는 메인 레일이 헤드튜브와 시트튜브를 감싸 휘어지는 헤어핀 구조를 지그재그 브레이스로 묶었습니다. SST 와이드는 이 구조를 그대로 두고 타이어가 지나갈 자리를 넓혔습니다.",
+    "img": {"src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/34434da640781.jpg", "alt": "슈발베 빌리 봉커 50mm 타이어를 끼운 몰튼 SST 와이드 뒷바퀴와 LTWOO A7 구동계"}
+  },
+  "highlights": {
+    "title": "Hairpin Spaceframe",
+    "sub": "헤어핀 스페이스프레임, 더 넓게.",
+    "rows": [
+      {"t": "Wide Clearance", "s": "406 휠에 50mm 타이어", "desc": "와이드 프레임이 만드는 여유로 도시와 투어를 함께 달립니다. 타이어 폭에 따라 도심의 경쾌함부터 비포장의 안정감까지 성격이 달라집니다.<sup>1</sup>", "img": {"src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/d904c4ce7fc1d.jpg", "alt": "Velocity Cliffhanger 림과 슈발베 빌리 봉커 타이어"}},
+      {"t": "Since 1962", "s": "작은 바퀴로 얼마나 멀리 갈 수 있는가", "desc": "1962년부터 이어온 몰튼의 질문에 대한 SST의 답. 작은 휠의 경쾌함은 그대로 두고, 노면에서 올라오는 진동은 서스펜션이 걸러냅니다.", "img": {"src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/9c36b3e39626f.jpg", "alt": "뒤쪽 사선에서 본 몰튼 SST 와이드 헤어핀 스페이스프레임"}},
+      {"t": "Rubi Workshop Builds", "s": "한국의 길에 맞춘 레퍼런스 빌드", "desc": "루비워크샵이 한국의 길과 라이더에 맞춰 구성한 세 가지 기준 빌드가 있습니다. 모든 부품은 상담을 통해 바꿀 수 있습니다.", "img": {"src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/9fbd46b0f8175.jpg", "alt": "Velo Orange 그래놀라 바와 Paul Component 박스카 스템"}}
+    ]
+  },
+  "figures": {
+    "title": "SST WIDE",
+    "sub": "숫자로 보는 SST 와이드",
+    "items": [
+      {"big": "50", "unit": "mm", "k": "최대 타이어 폭, 406 휠 기준<sup>1</sup>"},
+      {"big": "135", "unit": "mm", "k": "리어 OLD, QR 방식"},
+      {"big": "10", "unit": "년", "k": "몰튼 프레임·포크 확장 보증"}
+    ]
+  },
+  "technology": {
+    "title": "Hairpin Spaceframe",
+    "sub": "네 가지 디테일.",
+    "img": {"src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/866dd8be3205c.jpg", "alt": "몰튼 SST 와이드 실버그레이 측면, 리딩링크와 모노스피어 서스펜션", "pos": "50% 67%"},
+    "ratio": "16/10",
+    "items": [
+      {"t": "Leading Link", "s": "몰튼 리딩링크 프론트 서스펜션", "d": "406 휠에 50mm 타이어까지. 와이드 프레임이 만드는 여유로 도시와 투어를 함께 달립니다.", "x": 68.4, "y": 66.8},
+      {"t": "Monosphere", "s": "몰튼 모노스피어 리어 서스펜션", "d": "작은 휠의 경쾌함은 그대로 두고, 노면에서 올라오는 진동은 서스펜션이 걸러냅니다.", "x": 37.3, "y": 44.6},
+      {"t": "Stainless Dropout", "s": "스테인리스 드롭아웃", "d": "리어 OLD 135mm QR, IS·포스트 마운트 디스크 브레이크(160, 140mm)를 지원해 구성의 폭을 넓혔습니다.", "x": 23.6, "y": 66.8},
+      {"t": "Separable", "s": "분리형 센터 볼트", "d": "센터 볼트와 알로이 록너트로 프레임을 둘로 나눠 차에 싣거나 집 안에 보관하기 쉽습니다.", "x": 40.7, "y": 51}
+    ]
+  },
+  "configure": {
+    "eyebrow": "Rubi Workshop",
+    "title": "Reference Builds",
+    "sub": "세 가지 레퍼런스 빌드",
+    "desc": "루비워크샵이 한국의 길과 라이더에 맞춰 구성한 기준 빌드입니다. 모든 부품은 상담을 통해 바꿀 수 있습니다. 다른 몰튼 컬러는 공장 특별 발주로 선택할 수 있습니다.",
+    "cta": "이 빌드로 상담하기",
+    "pkgs": [
+      {"eyebrow": "Silver Grey · 시티, 투어링", "t": "실버그레이 업라이트", "img": {"src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/55099274198ec.jpg", "alt": "몰튼 SST 와이드 실버그레이 업라이트"}, "list": ["구동계: LTWOO A7 1×10 · 50T / 11-40T", "브레이크: 앞 V브레이크 · 뒤 Shimano TX805 기계식 디스크", "크랭크: SENICX FD2 · 170 mm", "콕핏: 그래놀라 바 · 박스카 스템", "타이어: Schwalbe Billy Bonkers 50 mm", "시트포스트: 몰튼 M 제로백 · 31.6 mm"]},
+      {"eyebrow": "Silver Grey · 그래블, 장거리 투어링", "t": "실버그레이 드롭", "list": ["구동계: Shimano Dura-Ace R9100 2×11 · 53-39T / 11-28T", "브레이크: 폴 미니모토 (앞) · 폴 클램퍼 (뒤)", "크랭크: 엑스트라라이트 체인링 · 170 mm", "타이어: Maxxis Torch 48 mm", "러기지: 몰튼 리어 러기지 캐리어 · 투어링 리어백"]},
+      {"eyebrow": "Riviera Blue · 로드, 투어링", "t": "리비에라 블루 드롭", "list": ["구동계: Shimano 105 R7000 2×11 · 50-34T / 11-34T", "브레이크: 폴 모토라이트 (앞) · 폴 클램퍼 (뒤)", "휠: 화이트인더스트리 T11 · CLD 허브, 벨로시티 다이애드 실버 림", "타이어: Schwalbe Kojak 35 mm", "바테이프: 시클로베이션 퓨전 오렌지"]}
+    ]
+  },
+  "geometry": {
+    "sizes": ["SST WIDE"],
+    "rows": [["Stack", "525"], ["Reach", "377"], ["Head tube", "254"], ["Seat tube", "450"]],
+    "note": "몰튼 SST 공식 수치 기준입니다.",
+    "unit": "단위 mm"
+  },
+  "gallery": [
+    {"src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/9fbd46b0f8175.jpg", "alt": "Velo Orange 그래놀라 바와 Paul Component 박스카 스템"},
+    {"src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/6be2e6d8e6982.jpg", "alt": "Paul Component 칸티 레버와 Crane Bell E-Ne 벨"},
+    {"src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/aad16988c1e72.jpg", "alt": "ADM 가죽 그립(버건디)과 LTWOO A7 시프터"},
+    {"src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/b5f95843f0f84.jpg", "alt": "Berthoud Aspin 가죽 안장"},
+    {"src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/a69c1691571d8.jpg", "alt": "MKS Lambda 페달"},
+    {"src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/d904c4ce7fc1d.jpg", "alt": "Velocity Cliffhanger 림과 슈발베 빌리 봉커 타이어"}
+  ],
+  "standard": [
+    {"t": "몰튼 10년 프레임 보증", "body": "몰튼 바이시클 컴퍼니는 기본 1년 보증에 더해 프레임과 포크 10년, 고무 서스펜션 부품 5년의 확장 보증을 무상으로 제공합니다. 구매일로부터 90일 이내에 등록하셔야 적용됩니다."},
+    {"t": "루비케어 1년", "body": "출고일로부터 1년 동안 루비워크샵의 루비케어 무상 보증이 적용됩니다."},
+    {"t": "반포 몰튼 쇼룸", "body": "루비워크샵은 몰튼의 한국 공식 디스트리뷰터이자 서울 반포의 몰튼 쇼룸입니다. 시승과 사이즈 상담은 예약 후 방문해 주세요. 운영 시간은 월~금 12:00~19:00, 토요일 10:00~15:30입니다."}
+  ],
+  "specs": {
+    "rows": [
+      ["휠", "20″ (406 mm)"],
+      ["프론트 서스펜션", "리딩링크 (유니크라운)"],
+      ["리어 서스펜션", "모노스피어"],
+      ["분리 방식", "센터 볼트 + 알로이 록너트"],
+      ["프레임 소재", "콜럼버스 스피릿, 레이놀즈 525 크로몰리, 스테인리스 드롭아웃"],
+      ["제작 방식", "필렛 브레이징, 헤어핀 구조, 솔리드 지그재그"],
+      ["리어 OLD", "135 mm QR"],
+      ["브레이크 마운트", "앞 V브레이크, 뒤 IS·포스트 마운트 디스크 (140, 160 mm)"],
+      ["타이어 클리어런스", "최대 50 mm<sup>1</sup>"],
+      ["스템 규격", "어헤드"],
+      ["시트포스트", "31.6 mm"],
+      ["바텀브라켓", "BSA"],
+      ["물통 케이지", "2곳 (시트튜브, 로어레일)"],
+      ["마감", "파우더 코팅"],
+      ["최대 하중", "120 kg"]
+    ],
+    "priceSup": "<sup>3</sup>",
+    "prices": [{"eyebrow": "Frame", "v": "5,500,000", "unit": "원", "note": "프레임 기준 소비자가"}]
+  },
+  "more": {"eyebrow": "More from Moulton", "title": "같은 원리, 다른 성격.", "sub": "몰튼의 다른 모델."},
+  "close": {
+    "sub": "반포 몰튼 쇼룸에서 직접 보세요.",
+    "stats": [
+      {"k": "프레임 판매가", "cur": "KRW", "v": "5,500,000<sup>3</sup>"},
+      {"k": "휠 사이즈", "v": "20″ (406)"},
+      {"k": "타이어 클리어런스", "v": "최대 50 mm<sup>1</sup>"},
+      {"k": "최대 하중", "v": "120 kg"}
+    ]
+  },
+  "links": [{"label": "SST WIDE 페이지", "href": "https://sst.rubiworkshop.com/"}],
+  "notes": {
+    "ol": ["타이어 클리어런스는 림 폭과 타이어 모델에 따라 달라집니다.", "지오메트리는 몰튼 SST 공식 수치 기준입니다.", "표기 가격은 프레임 기준 소비자가이며, 완성차 가격은 빌드 구성에 따라 달라집니다."],
+    "ul": ["이미지는 이해를 돕기 위한 것으로 실제 출고 사양과 다를 수 있습니다. 사양과 가격은 사전 예고 없이 바뀔 수 있습니다."]
+  },
+  "footerCopy": "Moulton Bicycle Company, Handbuilt in UK since 1962 · Rubi Company, Seoul"
+}

@@ -1,0 +1,314 @@
+{
+ "slug": "neutrino",
+ "brand": "velo-orange",
+ "brandName": "Velo Orange",
+ "brandShort": "Velo Orange",
+ "accent": "#c9622a",
+ "name": "Velo Orange Neutrino",
+ "nameShort": "Neutrino",
+ "ko": "벨로오렌지 뉴트리노",
+ "koShort": "뉴트리노",
+ "badge": "Steel",
+ "category": "Mini Velo · ATB",
+ "ldCategory": "미니벨로",
+ "manufacturerUrl": "https://velo-orange.com/",
+ "offers": {
+  "low": 1925000,
+  "high": 1925000
+ },
+ "seo": {
+  "title": "벨로오렌지 뉴트리노 | Velo Orange Neutrino | 루비워크샵",
+  "description": "벨로오렌지 뉴트리노(Velo Orange Neutrino). 20인치 BMX 휠에 2.3인치 타이어와 펜더까지 들어가는 크로몰리 미니벨로. 루비워크샵 커스텀 빌드, 사양과 가격, 상담 안내.",
+  "ogTitle": "벨로오렌지 뉴트리노 | Velo Orange Neutrino",
+  "og": "작고 단단한 미니벨로로 즐기는 전천후 어드벤처. 루비워크샵에서 가장 많이 찾는 미니벨로 중 하나.",
+  "product": "20인치(406) BMX 휠을 쓰는 벨로오렌지의 4130 더블 버티드 크로몰리 미니벨로 프레임셋. 펜더를 달고도 2.3인치 타이어가 들어갑니다."
+ },
+ "card": {
+  "img": {
+   "src": "https://velo-orange.com/cdn/shop/files/P1190720_1200x.jpg",
+   "alt": "벨로오렌지 뉴트리노"
+  }
+ },
+ "hero": {
+  "img": {
+   "src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/1ebc6c532d869.jpg",
+   "alt": "벨로오렌지 뉴트리노 그린 커스텀 빌드"
+  },
+  "price": "프레임셋 1,925,000원부터",
+  "priceNote": "완성차 가격은 빌드 구성에 따라 상담에서 안내<sup>1</sup>",
+  "desc": "작고 단단한 미니벨로의 민첩함에 거친 도로를 유연하게 달리는 ATB의 감성을 담았습니다. 루비워크샵에서 가장 많이 찾는 미니벨로 중 하나입니다.",
+  "stats": [
+   {
+    "k": "프레임셋",
+    "cur": "KRW",
+    "v": "1,925,000<sup>1</sup>"
+   },
+   {
+    "k": "휠",
+    "v": "20″ (406)"
+   },
+   {
+    "k": "최대 타이어",
+    "v": "2.3″, 펜더 포함"
+   },
+   {
+    "k": "소재",
+    "v": "4130 크로몰리"
+   }
+  ]
+ },
+ "band": "벨로오렌지 뉴트리노는 2세대 출시가 예정되어 있습니다. 입고 일정과 컬러는 루비워크샵에 문의해 주세요.",
+ "statement": {
+  "eyebrow": "Maryland, USA",
+  "title": "Small bike, big fun.",
+  "sub": "미니벨로 애호가의 전천후 어드벤처 입문.",
+  "desc": "뉴트리노는 미국 메릴랜드의 클래식 투어링 브랜드 벨로오렌지가 만든 미니벨로입니다. 도시의 일상과 대중교통을 섞은 이동, 여행까지 한 대로 소화하도록 설계했고, 작지만 일반 자전거처럼 자연스럽게 타도록 지오메트리를 다듬었습니다.",
+  "img": {
+   "src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/24c5d6b097104.jpg",
+   "alt": "에드센 커피 랙을 단 뉴트리노 전면부"
+  }
+ },
+ "highlights": {
+  "title": "Neutrino every day",
+  "sub": "작지만, 일반 자전거처럼.",
+  "rows": [
+   {
+    "t": "20″ BMX Wheels",
+    "s": "20인치 BMX 휠",
+    "desc": "406 규격의 BMX 휠을 씁니다. 좋은 림과 타이어를 구하기 쉽고, 튼튼합니다.",
+    "img": {
+     "src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/824bcc2acdd9c.jpg",
+     "alt": "Velocity Cliffhanger 406 림"
+    }
+   },
+   {
+    "t": "2.3″ with Fenders",
+    "s": "펜더를 달고도 2.3인치",
+    "desc": "펜더를 달고도 2.3인치 타이어가 들어갑니다. 비포장에서는 굵게, 도심에서는 슬릭하게 쓸 수 있습니다.",
+    "img": {
+     "src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/a95509547ac4c.jpg",
+     "alt": "그로우택 이퀄 기계식 디스크 캘리퍼"
+    }
+   },
+   {
+    "t": "Rubi Workshop Build",
+    "s": "루비워크샵 커스텀 빌드",
+    "desc": "딥 그린 프레임 위에 그로우택 캘리퍼, 울프투스 헤드셋, MKS 오로라 페달을 퍼플로 맞추고, 블랙 그라놀라 바와 올블랙 휠셋으로 무게감을 잡은 빌드입니다.",
+    "more": "프릭션 드라이브트레인에 다이아콤페 ENE 썸시프터와 폴 베이비 그루비 배럴 어드저스터를 더했고, 시마노 아세라 디레일러와 36T 와이드 스프라켓으로 기어비를 넓혔습니다.",
+    "img": {
+     "src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/6281da84d9488.jpg",
+     "alt": "Velo Orange Granola Bar"
+    }
+   }
+  ]
+ },
+ "technology": {
+  "title": "Frameset",
+  "sub": "프레임셋의 기본기.",
+  "items": [
+   {
+    "t": "4130 Chromoly",
+    "s": "더블 버티드 크로몰리",
+    "d": "프레임과 포크 모두 4130 더블 버티드 크로몰리로 만들고, 펜더를 달 수 있습니다."
+   },
+   {
+    "t": "Internal Routing",
+    "s": "내부 라우팅",
+    "d": "리어 브레이크 하우징과 드로퍼 포스트를 프레임 안으로 지나가게 할 수 있습니다."
+   },
+   {
+    "t": "1x Recommended",
+    "s": "1x 구성 권장",
+    "d": "더블 크랭크도 쓸 수 있지만 전용 앞변속기가 필요해, 벨로오렌지는 단순한 1x 구성을 권장합니다."
+   },
+   {
+    "t": "Rackless Rear",
+    "s": "리어는 랙 없는 가방",
+    "d": "체인스테이가 짧아 리어 랙에 패니어를 달면 발뒤꿈치가 닿을 수 있습니다. 랙 없이 다는 리어백을 권장합니다."
+   }
+  ]
+ },
+ "configure": {
+  "eyebrow": "Rubi Workshop Build",
+  "title": "Neutrino Green",
+  "sub": "루비워크샵 커스텀 빌드 예시",
+  "desc": "모든 부품은 상담을 통해 바꿀 수 있습니다.",
+  "cta": "이 빌드로 상담하기",
+  "pkgs": [
+   {
+    "eyebrow": "Cockpit",
+    "t": "콕핏",
+    "list": [
+     "Velo Orange Granola Bar 31.8mm (Black)",
+     "Velo Orange Threadless Stem 17° / 80mm (Silver)",
+     "Wolf Tooth Echo Lock-On Grips",
+     "Spurcycle Original Bell"
+    ]
+   },
+   {
+    "eyebrow": "Brake",
+    "t": "브레이크",
+    "list": [
+     "Growtac Equal 기계식 디스크 캘리퍼 (Purple)",
+     "Paul Component Canti Lever"
+    ]
+   },
+   {
+    "eyebrow": "Drivetrain",
+    "t": "구동계",
+    "list": [
+     "White Industries G30 Crank Arms 165mm",
+     "다이아콤페 ENE 썸시프터 (프릭션)",
+     "시마노 아세라 디레일러, 36T 와이드 스프라켓",
+     "MKS Aurora 페달 (Purple-Silver)"
+    ]
+   },
+   {
+    "eyebrow": "Wheels & More",
+    "t": "휠, 기타",
+    "list": [
+     "White Industries CLD Hub (Black, 32H)",
+     "Velocity Cliffhanger 406 (Black, 32H)",
+     "Wolf Tooth Performance Headset EC34 (Purple)",
+     "Edsen Coffee Rack (Black)"
+    ]
+   }
+  ]
+ },
+ "gallery": [
+  {
+   "src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/1ebc6c532d869.jpg",
+   "alt": "벨로오렌지 뉴트리노 그린 커스텀 빌드"
+  },
+  {
+   "src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/ebf070c564648.jpg",
+   "alt": "Paul Component Canti Lever"
+  },
+  {
+   "src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/adaff661a9adf.jpg",
+   "alt": "Wolf Tooth Performance Headset (Purple)"
+  },
+  {
+   "src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/82a6c734c14b8.jpg",
+   "alt": "White Industries CLD Hub"
+  },
+  {
+   "src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/6a58110dabaa5.jpg",
+   "alt": "White Industries G30 Crank Arms"
+  },
+  {
+   "src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/479d7e3ef75fc.jpg",
+   "alt": "MKS Aurora 페달"
+  },
+  {
+   "src": "https://cdn.imweb.me/upload/S20200311e09de2572a4ce/24c5d6b097104.jpg",
+   "alt": "Edsen Coffee Rack"
+  }
+ ],
+ "standard": [
+  {
+   "t": "사이즈 상담",
+   "body": "뉴트리노는 세 가지 사이즈로 나오며, 일반 자전거보다 조금 작게 잡힌 사이징입니다. 정확한 사이즈는 루비워크샵 피팅 상담으로 안내해 드립니다."
+  },
+  {
+   "t": "빌드 상담",
+   "body": "루비워크샵은 프레임셋을 기준으로 핸들바와 구동계, 랙과 가방까지 일상에 맞는 한 대로 빌드합니다."
+  },
+  {
+   "t": "보증",
+   "body": "벨로오렌지의 공식 워런티 기준을 따릅니다. 보증 관련 문의와 접수는 루비워크샵을 통해 하실 수 있습니다."
+  },
+  {
+   "t": "루비케어 1년",
+   "body": "출고일로부터 1년 동안 루비워크샵의 루비케어 무상 보증이 적용됩니다."
+  }
+ ],
+ "specs": {
+  "rows": [
+   [
+    "프레임 · 포크",
+    "4130 더블 버티드 크로몰리, 펜더 장착 가능"
+   ],
+   [
+    "휠",
+    "20″ (406 BSD)"
+   ],
+   [
+    "최대 타이어",
+    "20 x 2.3″ (펜더 장착 시)"
+   ],
+   [
+    "허브 규격",
+    "앞 100mm QR / 뒤 135mm QR"
+   ],
+   [
+    "바텀브라켓",
+    "68mm 스레드"
+   ],
+   [
+    "시트포스트",
+    "31.6mm, 드로퍼 내부 라우팅"
+   ],
+   [
+    "라우팅",
+    "리어 브레이크 내부 라우팅"
+   ],
+   [
+    "사이즈",
+    "3가지"
+   ]
+  ],
+  "priceSup": "<sup>1</sup>",
+  "prices": [
+   {
+    "eyebrow": "Frameset",
+    "v": "1,925,000",
+    "unit": "원부터",
+    "note": "프레임, 포크"
+   }
+  ]
+ },
+ "more": {
+  "eyebrow": "More Small Wheels",
+  "title": "작은 바퀴의 다른 선택.",
+  "sub": "다른 모델."
+ },
+ "close": {
+  "sub": "빌드는 루비워크샵에서 함께 정합니다.",
+  "stats": [
+   {
+    "k": "프레임셋",
+    "cur": "KRW",
+    "v": "1,925,000<sup>1</sup>"
+   },
+   {
+    "k": "휠",
+    "v": "20″ (406)"
+   },
+   {
+    "k": "최대 타이어",
+    "v": "2.3″"
+   },
+   {
+    "k": "사이즈",
+    "v": "3가지"
+   }
+  ]
+ },
+ "links": [
+  {
+   "label": "뉴트리노 룩북",
+   "href": "https://rubiworkshop.com/lookbook/?bmode=view&idx=175340280&t=board"
+  }
+ ],
+ "notes": {
+  "ol": [
+   "표기 가격은 프레임셋 시작 가격입니다. 완성차 가격은 빌드 구성에 따라 달라지며, 상담에서 견적을 안내해 드립니다."
+  ],
+  "ul": [
+   "2세대 뉴트리노의 사양은 출시 후 달라질 수 있습니다.",
+   "이미지는 이해를 돕기 위한 것으로 실제 출고 사양과 다를 수 있습니다. 사양과 가격은 사전 예고 없이 바뀔 수 있습니다."
+  ]
+ },
+ "footerCopy": "Velo Orange, Maryland · Rubi Company, Seoul"
+}

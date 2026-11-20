@@ -10,7 +10,7 @@
 /* /Archetype, /archetype.html 같은 주소를 /archetype/ 으로 보냅니다 */
 (function(){
   var p = location.pathname.toLowerCase().replace(/\.html$/, '').replace(/\/+$/, '');
-  var pages = ['/archetype'];
+  var pages = ['/am-22', '/am-gt', '/am-speed', '/archangel', '/archetype', '/bombora', '/crow', '/disc-trucker', '/evasion', '/jubilee', '/neutrino', '/ns-double-pylon', '/ns-marathon', '/ns-rapide', '/ns-safari', '/ns-speed', '/ouray', '/panterra', '/preamble', '/speed', '/sst-wide', '/sst', '/straggler', '/stupid-tourist', '/taos', '/the-hall-se', '/tsr', '/xtb'];
   if (pages.indexOf(p) > -1 && location.pathname !== p + '/') location.replace(p + '/' + location.hash);
 })();
 </script>

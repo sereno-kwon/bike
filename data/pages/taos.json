@@ -1,0 +1,415 @@
+{
+ "brand": "parlee",
+ "brandName": "Parlee Cycles",
+ "brandShort": "Parlee",
+ "manufacturerUrl": "https://parleecycles.com/",
+ "footerCopy": "Parlee Cycles, Beverly, Massachusetts · Rubi Company, Seoul",
+ "slug": "taos",
+ "name": "Parlee Taos",
+ "nameShort": "Taos",
+ "ko": "팔리 타오스",
+ "koShort": "타오스",
+ "accent": "#56653f",
+ "badge": "2026",
+ "category": "Gravel",
+ "ldCategory": "그래블 바이크",
+ "offers": {
+  "low": 8900000,
+  "high": 22500000,
+  "count": 5
+ },
+ "seo": {
+  "title": "팔리 타오스 | Parlee Taos | 루비워크샵",
+  "description": "팔리 타오스(Parlee Taos). 세분화된 그래블 장르를 하나로 묶은 모던 그래블 바이크, 2025 BikeRadar·CyclingPlus 그래블 바이크 오브 더 이어. 최대 50mm 타이어, 빌드 옵션, 사양과 가격, 루비워크샵 상담 안내.",
+  "ogTitle": "팔리 타오스 | Parlee Taos",
+  "og": "The End of Compromise. 세분화된 그래블을 하나로 묶은 팔리의 모던 그래블 바이크.",
+  "product": "긴 리치와 슬랙한 헤드 앵글, 최대 50mm 타이어 클리어런스를 갖춘 팔리의 UD 카본 모노코크 그래블 바이크."
+ },
+ "card": {
+  "img": {
+   "src": "/images/taos/build-red.jpg",
+   "alt": "팔리 타오스 스램 레드",
+   "w": 1400,
+   "h": 933
+  }
+ },
+ "hero": {
+  "img": {
+   "src": "/images/taos/ffp-01.jpg",
+   "alt": "파타고니아의 그래블을 달리는 팔리 타오스",
+   "w": 1600,
+   "h": 1067
+  },
+  "price": "13,100,000원부터",
+  "priceNote": "완성차 기준. 프레임셋 8,900,000원<sup>1</sup>",
+  "desc": "그래블이 점점 더 세분화된 장르로 나뉘는 지금, 타오스는 그 모두를 하나로 묶습니다. 포장도로가 끝나는 곳에서 비로소 살아나는 모던 그래블 바이크입니다.",
+  "stats": [
+   {
+    "k": "프레임셋",
+    "cur": "KRW",
+    "v": "8,900,000<sup>1</sup>"
+   },
+   {
+    "k": "타이어 클리어런스",
+    "v": "최대 50 mm"
+   },
+   {
+    "k": "구동계",
+    "v": "1x / 2x"
+   },
+   {
+    "k": "사이즈",
+    "v": "6개 사이즈"
+   }
+  ]
+ },
+ "band": "루비워크샵은 팔리 사이클의 한국 공식 디스트리뷰터입니다. 반포 쇼룸에서 빌드와 컬러, 사이즈를 함께 상담하세요.",
+ "statement": {
+  "eyebrow": "The End of Compromise.",
+  "title": "The Future is Now",
+  "sub": "세분화된 그래블을 하나로 묶다.",
+  "desc": "타오스는 더 길고 슬랙한 지오메트리로 기존 그래블 바이크와 과감히 결별합니다. 한눈에 봐도 넓은 타이어를 끼운 로드바이크가 아니라는 것을 알 수 있습니다. 2025년 BikeRadar와 CyclingPlus는 타오스를 그래블 바이크 오브 더 이어로 선정했습니다.",
+  "img": {
+   "src": "/images/taos/01.jpg",
+   "alt": "팔리 타오스 그래블 라이딩",
+   "w": 1371,
+   "h": 1920,
+   "pos": "50% 60%"
+  }
+ },
+ "highlights": {
+  "title": "Challenge Accepted",
+  "sub": "의도적으로, 그리고 탁월하게.",
+  "rows": [
+   {
+    "t": "Challenge Accepted",
+    "s": "의도적으로, 그리고 탁월하게",
+    "desc": "긴 리치와 슬랙한 헤드 앵글은 고속에서 확신에 찬 핸들링을, 낮은 BB와 짧은 체인스테이는 코너와 내리막에서 자전거를 노면에 붙여줍니다.",
+    "more": "여섯 개의 프레임 사이즈는 각자 전용 레이업과 지오메트리를 가져, 가장 작은 사이즈부터 가장 큰 사이즈까지 같은 승차감을 전합니다.",
+    "img": {
+     "src": "/images/taos/03.jpg",
+     "alt": "팔리 타오스 다운힐",
+     "w": 1280,
+     "h": 1920,
+     "pos": "50% 55%"
+    }
+   },
+   {
+    "t": "Jack of All Terrains",
+    "s": "아스팔트? 싱글트랙? 타오스라면 됩니다",
+    "desc": "넉넉한 50mm 타이어 클리어런스와 서스펜션 보정 지오메트리로 오프로드의 선택지는 끝이 없습니다. 탈착식 앞변속기 마운트로 1x와 2x 구성을 모두 지원합니다.",
+    "more": "다운튜브 내부 수납공간, 펜더 마운트, 탑튜브 백 마운트, 스텔스 드로퍼 싯포스트 라우팅까지. 기록과 싸우든 해를 쫓든, 어떤 모험에도 준비된 자전거입니다.",
+    "img": {
+     "src": "/images/taos/04.jpg",
+     "alt": "팔리 타오스 싱글트랙",
+     "w": 1280,
+     "h": 1920,
+     "pos": "50% 55%"
+    }
+   },
+   {
+    "t": "Lay it Bare",
+    "s": "숨길 것이 없는 누드 카본",
+    "desc": "포르투갈 장인들이 손으로 만드는 정밀 레이업에는 죽은 무게가 없습니다. 모든 카본 플라이를 의도한 자리에 놓아 코스메틱 레이어나 필러가 필요 없습니다.",
+    "more": "몰드에서 꺼낸 그대로 완벽한 표면을 만들기 때문에, 타오스를 왁스 마감의 완전한 누드 카본으로도 선보입니다.",
+    "img": {
+     "src": "/images/taos/05.jpg",
+     "alt": "팔리 타오스 누드 카본",
+     "w": 1280,
+     "h": 1920,
+     "pos": "50% 50%"
+    }
+   }
+  ]
+ },
+ "technology": {
+  "eyebrow": "Detail",
+  "tab": "디테일",
+  "title": "Sweat the Details",
+  "sub": "디테일에 땀을 흘립니다.",
+  "img": {
+   "src": "/images/taos/ffp-02.jpg",
+   "alt": "파타고니아의 숲길",
+   "w": 1600,
+   "h": 1067
+  },
+  "items": [
+   {
+    "t": "Not Your Dad's Gravel",
+    "s": "아버지 세대의 그래블이 아닙니다",
+    "d": "그래블 바이크로 위장한 로드바이크가 아닙니다. 탁월한 핸들링과 미래지향적 엔지니어링으로 매번의 라이딩을 모험으로 이끕니다."
+   },
+   {
+    "t": "More Power",
+    "s": "더 큰 힘을 당신에게",
+    "d": "모노코크 구조와 비틀림 강성이 높은 하부로 즉각적인 가속과 하루 종일 이어지는 퍼포먼스를 냅니다."
+   },
+   {
+    "t": "Suspension Ready",
+    "s": "서스펜션 포크 대응",
+    "d": "서스펜션 보정 지오메트리로 승차감을 해치지 않고 서스펜션 포크를 더할 수 있습니다."
+   },
+   {
+    "t": "Made for You",
+    "s": "부품부터 페인트까지",
+    "d": "로고 컬러 옵션, 스탠다드 페인트 스킴, 완전한 커스텀 페인트까지 고를 수 있습니다."
+   }
+  ]
+ },
+ "configure": {
+  "eyebrow": "Build Options",
+  "title": "Set up to ride your way",
+  "sub": "빌드 옵션",
+  "desc": "드리프트 블루와 노던 올리브 두 가지 컬러로 고를 수 있습니다.",
+  "pkgs": [
+   {
+    "eyebrow": "Complete Bike",
+    "t": "SRAM Red",
+    "img": {
+     "src": "/images/taos/build-red.jpg",
+     "alt": "팔리 타오스 스램 레드",
+     "w": 1400,
+     "h": 933
+    },
+    "list": [
+     "스램 레드 XPLR AXS 그룹셋",
+     "파워미터 포함",
+     "ZIPP 303 XPLR SW 휠셋"
+    ],
+    "price": "22,500,000원"
+   },
+   {
+    "eyebrow": "Complete Bike · Suspension",
+    "t": "Taos FST, SRAM Force",
+    "img": {
+     "src": "/images/taos/build-fst.jpg",
+     "alt": "팔리 타오스 FST 스램 포스 서스펜션",
+     "w": 1400,
+     "h": 933
+    },
+    "list": [
+     "스램 포스 XPLR AXS 그룹셋",
+     "락샥 루디 40mm 서스펜션 포크",
+     "ZIPP 303 XPLR SW 휠셋"
+    ],
+    "price": "가격 문의"
+   },
+   {
+    "eyebrow": "Complete Bike",
+    "t": "Shimano GRX Di2",
+    "img": {
+     "src": "/images/taos/build-grx.jpg",
+     "alt": "팔리 타오스 시마노 GRX Di2",
+     "w": 1400,
+     "h": 933
+    },
+    "list": [
+     "시마노 GRX Di2 그룹셋",
+     "ZIPP XPLR S 휠셋"
+    ],
+    "price": "18,000,000원"
+   },
+   {
+    "eyebrow": "Complete Bike",
+    "t": "SRAM Force",
+    "img": {
+     "src": "/images/taos/build-force.jpg",
+     "alt": "팔리 타오스 스램 포스",
+     "w": 1400,
+     "h": 933
+    },
+    "list": [
+     "스램 포스 XPLR AXS 그룹셋",
+     "ZIPP XPLR S 휠셋"
+    ],
+    "price": "16,200,000원"
+   },
+   {
+    "eyebrow": "Complete Bike",
+    "t": "SRAM Rival",
+    "img": {
+     "src": "/images/taos/build-rival.jpg",
+     "alt": "팔리 타오스 스램 라이벌",
+     "w": 1400,
+     "h": 933
+    },
+    "list": [
+     "스램 라이벌 XPLR 그룹셋",
+     "ZIPP XPLR S 휠셋"
+    ],
+    "price": "13,100,000원부터"
+   },
+   {
+    "eyebrow": "Frameset",
+    "t": "Taos Frameset",
+    "img": {
+     "src": "/images/taos/build-frameset.jpg",
+     "alt": "팔리 타오스 프레임셋",
+     "w": 1080,
+     "h": 720
+    },
+    "list": [
+     "UD 카본 모노코크 프레임",
+     "전용 카본 포크"
+    ],
+    "price": "8,900,000원"
+   }
+  ]
+ },
+ "gallery": [
+  {
+   "src": "/images/taos/ffp-01.jpg",
+   "alt": "파이널 프런티어 파타고니아의 팔리 타오스",
+   "w": 1600,
+   "h": 1067
+  },
+  {
+   "src": "/images/taos/02.jpg",
+   "alt": "팔리 타오스 디자인",
+   "w": 1280,
+   "h": 1920
+  },
+  {
+   "src": "/images/taos/06.jpg",
+   "alt": "팔리 타오스 커스텀",
+   "w": 1536,
+   "h": 1920
+  },
+  {
+   "src": "/images/taos/ffp-02.jpg",
+   "alt": "파타고니아의 숲길",
+   "w": 1600,
+   "h": 1067
+  },
+  {
+   "src": "/images/taos/01.jpg",
+   "alt": "팔리 타오스 그래블 라이딩",
+   "w": 1371,
+   "h": 1920
+  }
+ ],
+ "standard": [
+  {
+   "t": "사이즈와 피팅",
+   "body": "스택과 리치를 먼저 비교하세요. 두 수치가 라이딩 포지션의 높이와 길이를 결정합니다. 정확한 사이즈는 루비워크샵 피팅 상담으로 안내해 드립니다."
+  },
+  {
+   "t": "보증",
+   "body": "팔리 사이클의 공식 워런티 기준을 따릅니다. 보증 관련 문의와 접수는 루비워크샵을 통해 하실 수 있습니다."
+  },
+  {
+   "t": "루비케어 1년",
+   "body": "출고일로부터 1년 동안 루비워크샵의 루비케어 무상 보증이 적용됩니다."
+  },
+  {
+   "t": "반포 쇼룸 상담",
+   "body": "쇼룸 전시 차량과 지오메트리 자료를 바탕으로, 지금 타시는 자전거와 비교하며 사이즈와 포지션을 안내해 드립니다. 운영 시간은 월~금 12:00~19:00, 토요일 10:00~15:30입니다."
+  }
+ ],
+ "specs": {
+  "rows": [
+   [
+    "프레임",
+    "UD 카본 모노코크 프레임"
+   ],
+   [
+    "포크",
+    "전용 카본 포크 / 서스펜션 포크 대응 지오메트리"
+   ],
+   [
+    "지오메트리",
+    "롱 리치, 슬랙 헤드 앵글, 낮은 BB, 짧은 체인스테이"
+   ],
+   [
+    "타이어 클리어런스",
+    "최적 45 mm / 최대 50 mm"
+   ],
+   [
+    "구동계",
+    "1x / 2x 대응 (탈착식 앞변속기 마운트)"
+   ],
+   [
+    "수납 · 마운트",
+    "다운튜브 내부 수납, 펜더 마운트, 탑튜브 백 마운트"
+   ],
+   [
+    "싯포스트",
+    "스텔스 드로퍼 포스트 라우팅"
+   ],
+   [
+    "사이즈",
+    "6개 사이즈, 사이즈별 전용 레이업"
+   ],
+   [
+    "제작",
+    "포르투갈 핸드 레이업, 미국 본사에서 주문 조립"
+   ],
+   [
+    "컬러",
+    "드리프트 블루 / 노던 올리브 / 누드 카본 (왁스 마감)"
+   ],
+   [
+    "수상",
+    "2025 BikeRadar · CyclingPlus 그래블 바이크 오브 더 이어"
+   ]
+  ],
+  "priceSup": "<sup>1</sup>",
+  "prices": [
+   {
+    "eyebrow": "Complete",
+    "v": "13,100,000",
+    "unit": "원부터",
+    "note": "스램 라이벌 빌드"
+   },
+   {
+    "eyebrow": "Frameset",
+    "v": "8,900,000",
+    "unit": "원",
+    "note": "프레임, 전용 카본 포크"
+   }
+  ]
+ },
+ "more": {
+  "eyebrow": "More from Parlee",
+  "title": "같은 손, 다른 길.",
+  "sub": "팔리의 다른 모델."
+ },
+ "close": {
+  "sub": "반포 쇼룸에서 상담하세요.",
+  "stats": [
+   {
+    "k": "완성차",
+    "cur": "KRW",
+    "v": "13,100,000<sup>1</sup>"
+   },
+   {
+    "k": "프레임셋",
+    "cur": "KRW",
+    "v": "8,900,000<sup>1</sup>"
+   },
+   {
+    "k": "타이어 클리어런스",
+    "v": "최대 50 mm"
+   },
+   {
+    "k": "구동계",
+    "v": "1x / 2x"
+   }
+  ]
+ },
+ "links": [
+  {
+   "label": "팔리 사이클 코리아",
+   "href": "https://parleecycles.co.kr/#taos"
+  }
+ ],
+ "notes": {
+  "ol": [
+   "표기 가격은 빌드별 가격이며, 사이즈와 부품 변경에 따라 달라질 수 있습니다. 상담에서 견적을 안내해 드립니다."
+  ],
+  "ul": [
+   "이미지는 이해를 돕기 위한 것으로 실제 출고 사양과 다를 수 있습니다. 사양과 가격은 사전 예고 없이 바뀔 수 있습니다.",
+   "Image credit: Final Frontier Patagonia (파타고니아 사진)"
+  ]
+ }
+}
