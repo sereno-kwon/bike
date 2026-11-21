@@ -28,8 +28,8 @@
       "link": "https://parleecycles.co.kr",
       "linkLabel": "브랜드 페이지",
       "models": [
-        {"slug": "ouray", "name": "Ouray", "ko": "유레이", "cat": ["All-Road"], "summary": "현실의 도로를 위해 설계한 올로드. 2025 Bicycling 올로드 바이크 오브 더 이어.", "price": "13,100,000원부터", "url": "https://parleecycles.co.kr/#ouray"},
-        {"slug": "taos", "name": "Taos", "ko": "타오스", "cat": ["Gravel"], "summary": "세분화된 그래블 장르를 하나로 묶은 모던 그래블 바이크.", "price": "13,100,000원부터", "url": "https://parleecycles.co.kr/#taos"}
+        {"slug": "ouray", "name": "Ouray", "ko": "유레이", "cat": ["All-Road"], "summary": "현실의 도로를 위해 설계한 올로드. 2025 Bicycling 올로드 바이크 오브 더 이어.", "price": "프레임셋 8,900,000원", "url": "https://parleecycles.co.kr/#ouray"},
+        {"slug": "taos", "name": "Taos", "ko": "타오스", "cat": ["Gravel"], "summary": "세분화된 그래블 장르를 하나로 묶은 모던 그래블 바이크.", "price": "프레임셋 8,900,000원", "url": "https://parleecycles.co.kr/#taos"}
       ]
     },
     {
