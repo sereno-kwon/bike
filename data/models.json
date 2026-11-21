@@ -21,8 +21,8 @@
       "name": "Parlee Cycles",
       "ko": "팔리 사이클",
       "desc": "1999년 밥 팔리가 시작한 미국 매사추세츠의 카본 바이크. Z 시리즈는 지금도 100% 수작업으로 만듭니다.",
-      "image": "https://parleecycles.co.kr/images/ouray/02.jpg",
-      "imageAlt": "팔리 유레이",
+      "image": "/images/ouray/09.jpg",
+      "imageAlt": "숲길 옆 도로를 달리는 팔리 유레이",
       "models": [
         {"slug": "ouray", "name": "Ouray", "ko": "유레이", "cat": ["All-Road"], "summary": "현실의 도로를 위해 설계한 올로드. 2025 Bicycling 올로드 바이크 오브 더 이어.", "price": "프레임셋 8,900,000원", "url": "https://parleecycles.co.kr/#ouray"},
         {"slug": "taos", "name": "Taos", "ko": "타오스", "cat": ["Gravel"], "summary": "세분화된 그래블 장르를 하나로 묶은 모던 그래블 바이크.", "price": "프레임셋 8,900,000원", "url": "https://parleecycles.co.kr/#taos"}
@@ -46,8 +46,8 @@
       "name": "Moulton Bicycles",
       "ko": "몰튼 바이시클",
       "desc": "영국 브래드포드 온 에이번에서 시작된 트러스 프레임 미니벨로. 쇼룸에서 전 라인업을 보실 수 있고, TSR 9 데모 바이크로 시승하실 수 있습니다.",
-      "image": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-china-expedition-mountains.jpg?width=1200",
-      "imageAlt": "산길을 달리는 몰튼 자전거",
+      "image": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-ns-rapide-stone-wall-light-gravel-path.jpg?width=1200",
+      "imageAlt": "돌담 앞 자갈길에 선 몰튼 NS 라피드 선라이즈 오렌지",
       "models": [
         {"slug": "sst-wide", "name": "SST WIDE", "ko": "SST 와이드", "cat": ["Small Wheel", "ATB"], "summary": "넓은 타이어로 더 안정적이고 편안한 주행감을 더한 몰튼 SST 와이드.", "price": "프레임셋 6,100,000원부터", "url": "https://sst.rubiworkshop.com/"},
         {"slug": "ns-double-pylon", "name": "NS Double Pylon", "ko": "NS 더블 파일런", "cat": ["New Series", "Road"], "summary": "항공우주 등급 스테인리스를 손으로 연마한 뉴 시리즈의 플래그십. 트윈 파일런 구조의 분리형 프레임.", "price": "52,900,000원부터", "url": "https://moultonbicycles.co.kr/ns-double-pylon/"},
