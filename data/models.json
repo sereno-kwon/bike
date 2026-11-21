@@ -2,6 +2,52 @@
   "_readme": "bike.rubiworkshop.com 라인업 원본. 수정 후 python3 tools/build.py 를 실행하면 index.html의 필터·라인업과 sitemap.xml이 다시 만들어집니다. 이 사이트에 상세 페이지가 생긴 모델은 url을 /slug/ 로 바꾸고 page를 true로 둡니다.",
   "brands": [
     {
+      "id": "bastion",
+      "filter": "Bastion",
+      "name": "Bastion Cycles",
+      "ko": "바스티온 사이클",
+      "desc": "3D 프린팅 티타늄 러그와 카본 튜브로 한 사람의 치수에 맞춰 만드는 호주 멜버른의 하이퍼 바이크.",
+      "tag": "데모 바이크 시승 가능",
+      "image": "https://bastioncycles.co.kr/images/hero/02.jpg",
+      "imageAlt": "그래블을 달리는 바스티온 판테라",
+      "link": "https://bastioncycles.co.kr",
+      "linkLabel": "브랜드 페이지",
+      "models": [
+        {"slug": "archetype", "name": "Archetype", "ko": "아키타입", "cat": ["Aero Road"], "summary": "10년의 진화를 집약한 에어로 로드. 라인업에서 가장 빠른 모델입니다.", "price": "39,900,000원부터", "url": "/archetype/", "page": true},
+        {"slug": "panterra", "name": "Panterra", "ko": "판테라", "cat": ["Aero Gravel"], "badge": "New", "summary": "아키타입의 에어로 프로파일을 그래블로 옮긴 플랫폼. 50mm 타이어 클리어런스.", "price": "가격 문의", "url": "https://bastioncycles.co.kr/#models"},
+        {"slug": "archangel", "name": "ArchAngel", "ko": "아크엔젤", "cat": ["Limited Edition"], "badge": "88 Units", "summary": "티타늄 항공기 A-12 ArchAngel에서 영감을 받은 모델. 전 세계 88대 한정.", "price": "55,800,000원부터", "url": "https://bastioncycles.co.kr/#models"}
+      ]
+    },
+    {
+      "id": "parlee",
+      "filter": "Parlee",
+      "name": "Parlee Cycles",
+      "ko": "팔리 사이클",
+      "desc": "1999년 밥 팔리가 시작한 미국 매사추세츠의 카본 바이크. Z 시리즈는 지금도 100% 수작업으로 만듭니다.",
+      "image": "https://parleecycles.co.kr/images/ouray/02.jpg",
+      "imageAlt": "팔리 유레이",
+      "link": "https://parleecycles.co.kr",
+      "linkLabel": "브랜드 페이지",
+      "models": [
+        {"slug": "ouray", "name": "Ouray", "ko": "유레이", "cat": ["All-Road"], "summary": "현실의 도로를 위해 설계한 올로드. 2025 Bicycling 올로드 바이크 오브 더 이어.", "price": "13,100,000원부터", "url": "https://parleecycles.co.kr/#ouray"},
+        {"slug": "taos", "name": "Taos", "ko": "타오스", "cat": ["Gravel"], "summary": "세분화된 그래블 장르를 하나로 묶은 모던 그래블 바이크.", "price": "13,100,000원부터", "url": "https://parleecycles.co.kr/#taos"}
+      ]
+    },
+    {
+      "id": "tsubasa",
+      "filter": "Tsubasa",
+      "name": "Tsubasa Bicycles",
+      "ko": "츠바사 바이시클",
+      "desc": "영국의 빌더 에드비나스가 카본 튜브를 직접 만들어 한 대씩 완성하는 비스포크 로드바이크.",
+      "image": "https://tsubasabicycles.co.kr/images/artwork/04.jpg",
+      "imageAlt": "츠바사 바이시클 아트워크",
+      "link": "https://tsubasabicycles.co.kr/",
+      "linkLabel": "브랜드 페이지",
+      "models": [
+        {"slug": "crow", "name": "Crow", "ko": "크로우", "cat": ["Bespoke Road"], "summary": "속도라는 하나의 명제를 좇는 츠바사의 대표 모델. 빌더가 손으로 만든 카본 튜브.", "price": "프레임셋 16,600,000원부터", "url": "https://tsubasabicycles.co.kr/#crow"}
+      ]
+    },
+    {
       "id": "moulton",
       "filter": "Moulton",
       "name": "Moulton Bicycles",
@@ -28,52 +74,6 @@
         {"slug": "sst", "name": "SST", "ko": "", "cat": ["Y-frame", "Road & Touring"], "summary": "TSR을 더 가볍고 단단하게 다듬은 후속 모델. 도심부터 장거리 로드, 투어링까지 아우릅니다.", "price": "6,280,000원부터", "url": "https://moultonbicycles.co.kr/sst/"},
         {"slug": "the-hall-se", "name": "The Hall SE", "ko": "더 홀 스페셜 에디션", "cat": ["Special Edition", "City"], "summary": "몰튼이 태어난 저택 더 홀에 바치는 스페셜 에디션. 전용 홀 그린 컬러와 각인 스테인리스 배지.", "price": "5,380,000원부터", "url": "https://moultonbicycles.co.kr/the-hall-se/"},
         {"slug": "tsr", "name": "TSR", "ko": "", "cat": ["Y-frame", "City"], "summary": "몰튼 엔지니어링을 가장 부담 없이 시작하는 모델. 출퇴근과 레저, 가벼운 투어링을 위한 분리형 미니벨로.", "price": "5,480,000원부터", "url": "https://moultonbicycles.co.kr/tsr/"}
-      ]
-    },
-    {
-      "id": "bastion",
-      "filter": "Bastion",
-      "name": "Bastion Cycles",
-      "ko": "바스티온 사이클",
-      "desc": "3D 프린팅 티타늄 러그와 카본 튜브로 한 사람의 치수에 맞춰 만드는 호주 멜버른의 하이퍼 바이크.",
-      "tag": "데모 바이크 시승 가능",
-      "image": "https://bastioncycles.co.kr/images/hero/02.jpg",
-      "imageAlt": "그래블을 달리는 바스티온 판테라",
-      "link": "https://bastioncycles.co.kr",
-      "linkLabel": "브랜드 페이지",
-      "models": [
-        {"slug": "archetype", "name": "Archetype", "ko": "아키타입", "cat": ["Aero Road"], "summary": "10년의 진화를 집약한 에어로 로드. 라인업에서 가장 빠른 모델입니다.", "price": "39,900,000원부터", "url": "/archetype/", "page": true},
-        {"slug": "panterra", "name": "Panterra", "ko": "판테라", "cat": ["Aero Gravel"], "badge": "New", "summary": "아키타입의 에어로 프로파일을 그래블로 옮긴 플랫폼. 50mm 타이어 클리어런스.", "price": "가격 문의", "url": "https://bastioncycles.co.kr/#models"},
-        {"slug": "archangel", "name": "ArchAngel", "ko": "아크엔젤", "cat": ["Limited Edition"], "badge": "88 Units", "summary": "티타늄 항공기 A-12 ArchAngel에서 영감을 받은 모델. 전 세계 88대 한정.", "price": "55,800,000원부터", "url": "https://bastioncycles.co.kr/#models"}
-      ]
-    },
-    {
-      "id": "tsubasa",
-      "filter": "Tsubasa",
-      "name": "Tsubasa Bicycles",
-      "ko": "츠바사 바이시클",
-      "desc": "영국의 빌더 에드비나스가 카본 튜브를 직접 만들어 한 대씩 완성하는 비스포크 로드바이크.",
-      "image": "https://tsubasabicycles.co.kr/images/artwork/04.jpg",
-      "imageAlt": "츠바사 바이시클 아트워크",
-      "link": "https://tsubasabicycles.co.kr/",
-      "linkLabel": "브랜드 페이지",
-      "models": [
-        {"slug": "crow", "name": "Crow", "ko": "크로우", "cat": ["Bespoke Road"], "summary": "속도라는 하나의 명제를 좇는 츠바사의 대표 모델. 빌더가 손으로 만든 카본 튜브.", "price": "프레임셋 16,600,000원부터", "url": "https://tsubasabicycles.co.kr/#crow"}
-      ]
-    },
-    {
-      "id": "parlee",
-      "filter": "Parlee",
-      "name": "Parlee Cycles",
-      "ko": "팔리 사이클",
-      "desc": "1999년 밥 팔리가 시작한 미국 매사추세츠의 카본 바이크. Z 시리즈는 지금도 100% 수작업으로 만듭니다.",
-      "image": "https://parleecycles.co.kr/images/ouray/02.jpg",
-      "imageAlt": "팔리 유레이",
-      "link": "https://parleecycles.co.kr",
-      "linkLabel": "브랜드 페이지",
-      "models": [
-        {"slug": "ouray", "name": "Ouray", "ko": "유레이", "cat": ["All-Road"], "summary": "현실의 도로를 위해 설계한 올로드. 2025 Bicycling 올로드 바이크 오브 더 이어.", "price": "13,100,000원부터", "url": "https://parleecycles.co.kr/#ouray"},
-        {"slug": "taos", "name": "Taos", "ko": "타오스", "cat": ["Gravel"], "summary": "세분화된 그래블 장르를 하나로 묶은 모던 그래블 바이크.", "price": "13,100,000원부터", "url": "https://parleecycles.co.kr/#taos"}
       ]
     },
     {
