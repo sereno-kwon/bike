@@ -7,7 +7,6 @@
       "name": "Bastion Cycles",
       "ko": "바스티온 사이클",
       "desc": "3D 프린팅 티타늄 러그와 카본 튜브로 한 사람의 치수에 맞춰 만드는 호주 멜버른의 하이퍼 바이크.",
-      "tag": "데모 바이크 시승 가능",
       "image": "https://bastioncycles.co.kr/images/hero/02.jpg",
       "imageAlt": "그래블을 달리는 바스티온 판테라",
       "link": "https://bastioncycles.co.kr",
@@ -52,8 +51,7 @@
       "filter": "Moulton",
       "name": "Moulton Bicycles",
       "ko": "몰튼 바이시클",
-      "desc": "영국 브래드포드 온 에이번에서 시작된 트러스 프레임 미니벨로. 쇼룸에서 전 라인업을 보고 시승할 수 있습니다.",
-      "tag": "데모 바이크 시승 가능",
+      "desc": "영국 브래드포드 온 에이번에서 시작된 트러스 프레임 미니벨로. 쇼룸에서 전 라인업을 보실 수 있고, TSR 9 데모 바이크로 시승하실 수 있습니다.",
       "image": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-china-expedition-mountains.jpg?width=1200",
       "imageAlt": "산길을 달리는 몰튼 자전거",
       "link": "https://moultonbicycles.co.kr/",
@@ -73,7 +71,7 @@
         {"slug": "xtb", "name": "XTB", "ko": "", "cat": ["Y-frame", "All Terrain"], "summary": "최초의 양산형 풀 서스펜션 MTB였던 AM-ATB의 후계자. 자갈길과 숲길, 혼합 노면을 위한 분리형 프레임.", "price": "10,200,000원부터", "url": "https://moultonbicycles.co.kr/xtb/"},
         {"slug": "sst", "name": "SST", "ko": "", "cat": ["Y-frame", "Road & Touring"], "summary": "TSR을 더 가볍고 단단하게 다듬은 후속 모델. 도심부터 장거리 로드, 투어링까지 아우릅니다.", "price": "6,280,000원부터", "url": "https://moultonbicycles.co.kr/sst/"},
         {"slug": "the-hall-se", "name": "The Hall SE", "ko": "더 홀 스페셜 에디션", "cat": ["Special Edition", "City"], "summary": "몰튼이 태어난 저택 더 홀에 바치는 스페셜 에디션. 전용 홀 그린 컬러와 각인 스테인리스 배지.", "price": "5,380,000원부터", "url": "https://moultonbicycles.co.kr/the-hall-se/"},
-        {"slug": "tsr", "name": "TSR", "ko": "", "cat": ["Y-frame", "City"], "summary": "몰튼 엔지니어링을 가장 부담 없이 시작하는 모델. 출퇴근과 레저, 가벼운 투어링을 위한 분리형 미니벨로.", "price": "5,480,000원부터", "url": "https://moultonbicycles.co.kr/tsr/"}
+        {"slug": "tsr", "name": "TSR", "ko": "", "cat": ["Y-frame", "City"], "badge": "TSR 9 시승", "summary": "몰튼 엔지니어링을 가장 부담 없이 시작하는 모델. 출퇴근과 레저, 가벼운 투어링을 위한 분리형 미니벨로.", "price": "5,480,000원부터", "url": "https://moultonbicycles.co.kr/tsr/"}
       ]
     },
     {
