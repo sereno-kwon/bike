@@ -9,8 +9,6 @@
       "desc": "3D 프린팅 티타늄 러그와 카본 튜브로 한 사람의 치수에 맞춰 만드는 호주 멜버른의 하이퍼 바이크.",
       "image": "https://bastioncycles.co.kr/images/hero/02.jpg",
       "imageAlt": "그래블을 달리는 바스티온 판테라",
-      "link": "https://bastioncycles.co.kr",
-      "linkLabel": "브랜드 페이지",
       "models": [
         {"slug": "archetype", "name": "Archetype", "ko": "아키타입", "cat": ["Aero Road"], "summary": "10년의 진화를 집약한 에어로 로드. 라인업에서 가장 빠른 모델입니다.", "price": "39,900,000원부터", "url": "/archetype/", "page": true},
         {"slug": "panterra", "name": "Panterra", "ko": "판테라", "cat": ["Aero Gravel"], "badge": "New", "summary": "아키타입의 에어로 프로파일을 그래블로 옮긴 플랫폼. 50mm 타이어 클리어런스.", "price": "가격 문의", "url": "https://bastioncycles.co.kr/#models"},
@@ -25,8 +23,6 @@
       "desc": "1999년 밥 팔리가 시작한 미국 매사추세츠의 카본 바이크. Z 시리즈는 지금도 100% 수작업으로 만듭니다.",
       "image": "https://parleecycles.co.kr/images/ouray/02.jpg",
       "imageAlt": "팔리 유레이",
-      "link": "https://parleecycles.co.kr",
-      "linkLabel": "브랜드 페이지",
       "models": [
         {"slug": "ouray", "name": "Ouray", "ko": "유레이", "cat": ["All-Road"], "summary": "현실의 도로를 위해 설계한 올로드. 2025 Bicycling 올로드 바이크 오브 더 이어.", "price": "프레임셋 8,900,000원", "url": "https://parleecycles.co.kr/#ouray"},
         {"slug": "taos", "name": "Taos", "ko": "타오스", "cat": ["Gravel"], "summary": "세분화된 그래블 장르를 하나로 묶은 모던 그래블 바이크.", "price": "프레임셋 8,900,000원", "url": "https://parleecycles.co.kr/#taos"}
@@ -40,8 +36,6 @@
       "desc": "영국의 빌더 에드비나스가 카본 튜브를 직접 만들어 한 대씩 완성하는 비스포크 로드바이크.",
       "image": "https://tsubasabicycles.co.kr/images/artwork/04.jpg",
       "imageAlt": "츠바사 바이시클 아트워크",
-      "link": "https://tsubasabicycles.co.kr/",
-      "linkLabel": "브랜드 페이지",
       "models": [
         {"slug": "crow", "name": "Crow", "ko": "크로우", "cat": ["Bespoke Road"], "summary": "속도라는 하나의 명제를 좇는 츠바사의 대표 모델. 빌더가 손으로 만든 카본 튜브.", "price": "프레임셋 16,600,000원부터", "url": "https://tsubasabicycles.co.kr/#crow"}
       ]
@@ -54,8 +48,6 @@
       "desc": "영국 브래드포드 온 에이번에서 시작된 트러스 프레임 미니벨로. 쇼룸에서 전 라인업을 보실 수 있고, TSR 9 데모 바이크로 시승하실 수 있습니다.",
       "image": "https://www.moultonbicycles.co.uk/cdn/shop/files/moulton-china-expedition-mountains.jpg?width=1200",
       "imageAlt": "산길을 달리는 몰튼 자전거",
-      "link": "https://moultonbicycles.co.kr/",
-      "linkLabel": "브랜드 페이지",
       "models": [
         {"slug": "sst-wide", "name": "SST WIDE", "ko": "SST 와이드", "cat": ["Small Wheel", "ATB"], "summary": "넓은 타이어로 더 안정적이고 편안한 주행감을 더한 몰튼 SST 와이드.", "price": "프레임셋 6,100,000원부터", "url": "https://sst.rubiworkshop.com/"},
         {"slug": "ns-double-pylon", "name": "NS Double Pylon", "ko": "NS 더블 파일런", "cat": ["New Series", "Road"], "summary": "항공우주 등급 스테인리스를 손으로 연마한 뉴 시리즈의 플래그십. 트윈 파일런 구조의 분리형 프레임.", "price": "52,900,000원부터", "url": "https://moultonbicycles.co.kr/ns-double-pylon/"},
@@ -82,8 +74,6 @@
       "desc": "더 멀리 가고 싶어서 직접 만든 자전거. 2013년 미국 리치먼드에서 시작한 스틸 투어링 브랜드.",
       "image": "",
       "imageAlt": "",
-      "link": "https://crustbikes.co.kr",
-      "linkLabel": "브랜드 페이지",
       "models": [
         {"slug": "evasion", "name": "Evasion", "ko": "이베이전", "cat": ["Touring & Adventure"], "summary": "어디로든, 무엇이든 싣고. 26x3인치 타이어 기준의 올라운드 투어링 프레임.", "price": "프레임셋 2,470,000원부터", "url": "https://crustbikes.co.kr/#evasion"},
         {"slug": "bombora", "name": "Bombora", "ko": "봄보라", "cat": ["Gravel", "All-Road"], "summary": "이베이전의 형제. 조금 더 가볍고 조금 더 빠른 스틸 그래블.", "price": "프레임셋 2,470,000원부터", "url": "https://crustbikes.co.kr/#bombora"},
@@ -98,8 +88,6 @@
       "desc": "튼튼하고 정직한 미국의 스틸 프레임. 루비워크샵은 타는 길과 용도에 맞춰 한 대씩 빌드합니다.",
       "image": "https://surly.rubiworkshop.com/images/brand/01.jpg",
       "imageAlt": "설리 스틸 프레임 자전거",
-      "link": "https://rubiworkshop.com/surly",
-      "linkLabel": "브랜드 페이지",
       "models": [
         {"slug": "straggler", "name": "Straggler", "ko": "스트래글러", "cat": ["All-Road", "Touring"], "summary": "임도와 그래블, 투어링까지 폭넓게 소화하는 스틸 올로드.", "price": "프레임셋 1,200,000원부터", "url": "https://rubiworkshop.com/lookbook/?bmode=view&idx=175437898&t=board"},
         {"slug": "preamble", "name": "Preamble", "ko": "프리앰블", "cat": ["Classic ATB"], "summary": "클래식 ATB 스타일로 빌드해 가볍게 입문하기 좋은 스틸 바이크.", "price": "프레임셋 1,000,000원부터", "url": "https://rubiworkshop.com/lookbook/?bmode=view&idx=175422581&t=board"},

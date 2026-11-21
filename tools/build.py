@@ -55,7 +55,11 @@ def model_li(m):
 def brand_section(b):
     n = len(b["models"])
     count = f"{n} Model" + ("s" if n > 1 else "")
-    ext = ' target="_blank" rel="noopener"' if is_external(b["link"]) else ""
+    if b.get("link"):
+        ext = ' target="_blank" rel="noopener"' if is_external(b["link"]) else ""
+        acts = f'<div class="acts"><a class="btn" href="{esc(b['link'])}"{ext}>{esc(b['linkLabel'])}</a></div>'
+    else:
+        acts = ""
     if b.get("image"):
         plate = (
             f'<figure class="plate"><img src="{esc(b["image"])}" alt="{esc(b["imageAlt"])}" '
@@ -73,7 +77,7 @@ def brand_section(b):
           <p class="count">{count}</p>
           <p class="desc">{esc(b['desc'])}</p>
           {tag}
-          <div class="acts"><a class="btn" href="{esc(b['link'])}"{ext}>{esc(b['linkLabel'])}</a></div>
+          {acts}
         </div>
         {plate}
       </div>
