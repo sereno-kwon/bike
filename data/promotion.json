@@ -1,0 +1,73 @@
+{
+  "_readme": "bike.rubiworkshop.com/promotion/ 원본. 매달 month, period, highlight, focus, models 의 모델과 크레딧 금액만 바꾸고 python3 tools/build.py 를 실행하면 promotion/index.html, 메인 페이지 상단 안내 띠, sitemap.xml 이 함께 바뀝니다. active 를 false 로 두면 메인 안내 띠가 빠지고 페이지는 검색 노출을 멈춥니다(noindex). 루비워크샵 직접 판매 전용이며 루비서플라이 거래처는 대상이 아닙니다.",
+  "active": true,
+  "month": "2026-12",
+  "monthLabel": "12월",
+  "period": "2026년 12월 1일부터 12월 31일까지",
+  "periodShort": "12.31까지",
+  "seo": {
+    "title": "12월 ATB 프로모션, 빌드 크레딧 | 루비워크샵 Bikes",
+    "description": "루비워크샵 12월 ATB 프로모션. 크러스트, 설리, 벨로오렌지 ATB 프레임을 루비워크샵에서 빌드하시면 폴 컴포넌트, 화이트 인더스트리, MKS, 울프투스 부품에 쓰실 수 있는 빌드 크레딧을 최대 50만원까지 드립니다.",
+    "ogTitle": "12월 ATB 프로모션 | 빌드 크레딧 최대 50만원",
+    "og": "가격은 그대로, 부품은 한 단계 위로. 루비워크샵에서 ATB를 빌드하시면 부품 업그레이드에 쓰실 수 있는 빌드 크레딧을 드립니다."
+  },
+  "hero": {
+    "img": {"src": "/images/preamble/wide.jpg", "alt": "숲길을 달리는 설리 프리앰블", "w": 1200, "h": 800, "pos": "50% 55%"},
+    "title": "December Promotion",
+    "sub": "12월 ATB 프로모션",
+    "desc": "이번 달 루비워크샵에서 ATB를 빌드하시면, 폴 컴포넌트, 화이트 인더스트리, MKS, 울프투스 같은 부품으로 업그레이드하는 데 쓰실 수 있는 빌드 크레딧을 드립니다. 가격은 그대로 두고, 그만큼 더 좋은 부품으로 완성하는 방식입니다."
+  },
+  "highlight": {
+    "slug": "evasion",
+    "brand": "Crust",
+    "name": "Evasion",
+    "ko": "크러스트 이베이전",
+    "img": {"src": "/images/evasion/01.jpg", "alt": "크러스트 이베이전 프레임셋", "w": 1920, "h": 1280},
+    "desc": "26x3인치 타이어를 품는 크러스트의 올라운드 투어링·어드벤처 프레임. 이번 달 가장 큰 빌드 크레딧을 드립니다.",
+    "credit": 500000
+  },
+  "focus": [
+    {
+      "slug": "bombora",
+      "brand": "Crust",
+      "name": "Bombora",
+      "ko": "크러스트 봄보라",
+      "img": {"src": "/images/bombora/01.jpg", "alt": "크러스트 봄보라 프레임셋", "w": 1920, "h": 1280},
+      "desc": "이베이전의 형제. 조금 더 가볍고 조금 더 빠른 스틸 그래블.",
+      "credit": 300000
+    },
+    {
+      "slug": "preamble",
+      "brand": "Surly",
+      "name": "Preamble",
+      "ko": "설리 프리앰블",
+      "img": {"src": "/images/preamble/01.jpg", "alt": "벽화 앞에 선 설리 프리앰블", "w": 1920, "h": 1280},
+      "desc": "클래식 ATB 스타일로 빌드해 가볍게 입문하기 좋은 스틸 바이크.",
+      "credit": 300000
+    }
+  ],
+  "models": [
+    {"slug": "evasion", "name": "Crust Evasion", "ko": "크러스트 이베이전", "tier": "Highlight", "price": "프레임셋 2,470,000원부터", "credit": 500000},
+    {"slug": "bombora", "name": "Crust Bombora", "ko": "크러스트 봄보라", "tier": "Focus", "price": "프레임셋 2,470,000원부터", "credit": 300000},
+    {"slug": "preamble", "name": "Surly Preamble", "ko": "설리 프리앰블", "tier": "Focus", "price": "프레임셋 1,000,000원부터", "credit": 300000},
+    {"slug": "stupid-tourist", "name": "Crust Stupid Tourist", "ko": "크러스트 스투피드 투어리스트", "tier": "", "price": "프레임셋 2,950,000원부터", "credit": 200000},
+    {"slug": "straggler", "name": "Surly Straggler", "ko": "설리 스트래글러", "tier": "", "price": "프레임셋 1,200,000원부터", "credit": 200000},
+    {"slug": "disc-trucker", "name": "Surly Disc Trucker", "ko": "설리 디스크 트러커", "tier": "", "price": "프레임셋 1,350,000원부터", "credit": 200000},
+    {"slug": "neutrino", "name": "Velo Orange Neutrino", "ko": "벨로오렌지 뉴트리노", "tier": "", "price": "프레임셋 1,925,000원부터", "credit": 200000}
+  ],
+  "brands": [
+    {"name": "Paul Component", "ko": "폴 컴포넌트", "items": ["클램퍼 기계식 디스크 캘리퍼", "모토라이트 V 브레이크, 브레이크 레버", "박스카 스템"]},
+    {"name": "White Industries", "ko": "화이트 인더스트리", "items": ["허브, 휠 빌드", "크랭크, 체인링", "보텀브래킷"]},
+    {"name": "MKS", "ko": "엠케이에스", "items": ["플랫 페달, 투어링 페달", "이지 슈페리얼 탈착 시스템"]},
+    {"name": "Wolf Tooth", "ko": "울프투스", "items": ["헤드셋", "체인링, 카세트 코그", "그립, 스템"]},
+    {"name": "Growtac", "ko": "그로우택", "items": ["이퀄 기계식 디스크 브레이크"]},
+    {"name": "Velo Orange", "ko": "벨로오렌지", "items": ["핸들바, 스템", "랙, 펜더", "시트포스트"]},
+    {"name": "Crane Bell", "ko": "크레인 벨", "items": ["황동 벨"]}
+  ],
+  "examples": [
+    {"eyebrow": "Brakes", "t": "브레이크 세트", "p": "제동력과 손맛이 가장 크게 달라지는 부분입니다. 크레딧 하나로 앞뒤 브레이크를 한 번에 바꾸는 구성입니다.", "items": ["폴 클램퍼 앞뒤", "또는 그로우택 이퀄 앞뒤 + 폴 브레이크 레버"]},
+    {"eyebrow": "Cockpit", "t": "콕핏 세트", "p": "손이 닿는 곳을 정리하는 구성입니다. 클래식 ATB의 인상을 결정하는 조합이기도 합니다.", "items": ["벨로오렌지 핸들바", "폴 박스카 스템 또는 울프투스 헤드셋", "크레인 벨"]},
+    {"eyebrow": "Contact", "t": "페달 세트", "p": "몸이 자전거와 만나는 지점입니다. 이지 슈페리얼을 더하면 페달을 공구 없이 떼어 보관하실 수 있습니다.", "items": ["MKS 페달", "이지 슈페리얼 탈착 시스템", "울프투스 그립"]},
+    {"eyebrow": "Wheels", "t": "휠 업그레이드", "p": "크레딧을 보태 한 단계 더 올라가는 구성입니다. 크레딧보다 큰 금액은 정상가로 더하시면 됩니다.", "items": ["화이트 인더스트리 허브 휠 빌드", "울프투스 카세트 코그"]}
+  ]
+}

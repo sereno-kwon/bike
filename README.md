@@ -19,6 +19,9 @@ tools/model_page.py   모델 페이지 템플릿 (아키타입 구조)
 tools/build.py        위 데이터로 모델 페이지, index.html 라인업·필터·구조화 데이터, 404 주소 목록, sitemap.xml을 다시 만듦
 images/<모델>/        모델 페이지 사진
 images/models/        다른 모델 카드 사진
+promotion/index.html  월별 프로모션 페이지 (빌드 결과물, 직접 고치지 않음)
+data/promotion.json   프로모션 원본 (월, 기간, 하이라이트·포커스 모델, 모델별 빌드 크레딧, 대상 부품 브랜드, 구성 예)
+tools/promotion_page.py 프로모션 페이지 템플릿 (빌드 크레딧 설명, 사용 방법, 유의사항, FAQ 문구 포함)
 404.html, CNAME, robots.txt, sitemap.xml
 ```
 
@@ -49,6 +52,15 @@ images/models/        다른 모델 카드 사진
 - more(다른 모델 카드)는 같은 브랜드 모델을 먼저, 모자라면 다음 브랜드 모델로 자동 채웁니다.
 - 새 모델은 `data/models.json`에 모델을 넣고 같은 slug로 `data/pages/<slug>.json`을 만든 뒤 빌드하면, 메인 라인업 링크, sitemap.xml, 404 주소 목록까지 함께 반영됩니다.
 - 사진은 `images/<slug>/`에 1920px 이하, JPG 80% 안팎으로 줄여 넣습니다. 몰튼은 몰튼 UK CDN, SST WIDE·뉴트리노는 아임웹 CDN 사진을 주소로 불러옵니다.
+
+## 월별 프로모션 (/promotion/)
+
+BMW 모토라드 월별 프로모션 페이지 구성(하이라이트 모델, 포커스 모델, 모델별 혜택표, 공통 혜택, 유의사항)을 따릅니다. 혜택은 현금 할인 대신 빌드 크레딧(대상 브랜드 부품 업그레이드 전용 크레딧)입니다. 루비워크샵 직접 판매 전용이며 루비서플라이 거래처는 대상이 아닙니다.
+
+- 매달 `data/promotion.json`의 month, monthLabel, period, periodShort, seo, highlight, focus, models만 바꾸고 `python3 tools/build.py`를 실행합니다.
+- 빌드하면 `promotion/index.html`, 메인 페이지 머리의 안내 띠(`<!-- build:promo -->`), sitemap.xml, 404 주소 목록이 함께 바뀝니다.
+- 프로모션이 없는 달은 `active`를 false로 둡니다. 메인 안내 띠가 빠지고 sitemap에서 제외되며 페이지는 noindex가 됩니다.
+- 빌드 크레딧 설명, 사용 방법, 유의사항, FAQ 문구는 매달 같으므로 `tools/promotion_page.py`에 있습니다.
 
 ## 라인업 수정
 

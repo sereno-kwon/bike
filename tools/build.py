@@ -9,6 +9,7 @@ data/models.json 하나를 원본으로 삼아 아래를 다시 씁니다.
 
   - <slug>/index.html (data/pages/<slug>.json 이 있는 모델마다, tools/model_page.py 템플릿)
   - 404.html 의 모델 주소 목록
+  - promotion/index.html, index.html 의 <!-- build:promo --> 안내 띠 (data/promotion.json, tools/promotion_page.py)
 
 사용법: python3 tools/build.py          # 다시 쓰기
         python3 tools/build.py --check  # 바뀔 내용이 있으면 실패 (CI 용)
@@ -22,6 +23,7 @@ import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import model_page  # noqa: E402
+import promotion_page  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE = "https://bike.rubiworkshop.com"
@@ -116,8 +118,10 @@ def replace_block(text, name, body):
     return pat.sub(lambda m: m.group(1) + "\n" + body + "\n" + m.group(3), text)
 
 
-def sitemap(brands, today):
+def sitemap(brands, today, promo=None):
     urls = [SITE + "/"]
+    if promo and promo.get("active"):
+        urls.append(SITE + "/promotion/")
     for b in brands:
         for m in b["models"]:
             if m.get("page"):
@@ -171,7 +175,12 @@ def main():
     pages = load_pages()
     link_models(brands, pages)
 
+    promo_path = ROOT / "data/promotion.json"
+    promo = json.loads(promo_path.read_text(encoding="utf-8")) if promo_path.exists() else None
+
     outputs = {}
+    if promo:
+        outputs[ROOT / "promotion" / "index.html"] = promotion_page.render(promo)
     for slug, p in pages.items():
         outputs[ROOT / slug / "index.html"] = model_page.render(p, more_items(p, brands, pages))
 
@@ -180,11 +189,12 @@ def main():
     new_index = replace_block(old_index, "filters", "        " + filters(brands) + "\n        ")
     new_index = replace_block(new_index, "lineup", "  " + "\n\n  ".join(brand_section(b) for b in brands) + "\n  ")
     new_index = replace_block(new_index, "itemlist", itemlist(brands))
+    new_index = replace_block(new_index, "promo", "  " + (promotion_page.band_for_index(promo) if promo else "") + "\n  ")
     outputs[index_path] = new_index
 
     p404 = ROOT / "404.html"
     old404 = p404.read_text(encoding="utf-8")
-    lst = ", ".join(f"'/{s}'" for s in pages)
+    lst = ", ".join(f"'/{s}'" for s in sorted(list(pages) + (["promotion"] if promo else [])))
     outputs[p404] = re.sub(r"var pages = \[[^\]]*\];", f"var pages = [{lst}];", old404)
 
     sm_path = ROOT / "sitemap.xml"
@@ -192,9 +202,9 @@ def main():
     m = re.search(r"<lastmod>([\d-]+)</lastmod>", old_sm)
     keep = m.group(1) if m else datetime.date.today().isoformat()
     changed = any((not f.exists()) or f.read_text(encoding="utf-8") != t for f, t in outputs.items())
-    new_sm = sitemap(brands, keep)
+    new_sm = sitemap(brands, keep, promo)
     if changed or new_sm != old_sm:
-        new_sm = sitemap(brands, datetime.date.today().isoformat())
+        new_sm = sitemap(brands, datetime.date.today().isoformat(), promo)
     outputs[sm_path] = new_sm
 
     stale = [f for f, t in outputs.items() if (not f.exists()) or f.read_text(encoding="utf-8") != t]

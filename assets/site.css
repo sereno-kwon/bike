@@ -343,3 +343,29 @@ footer .copy{grid-column:1/-1;font-size:12px;color:var(--muted);border-top:1px s
 .geo th[scope="row"],.geo thead th:first-child{text-align:left;color:var(--muted);white-space:normal}
 .geo thead th{color:var(--muted);font-size:12px}
 .gnote{margin-top:14px;font-size:12px;color:var(--muted)}
+
+/* ---- promotion page (/promotion/, BMW Motorrad monthly promotion structure) ---- */
+@media (min-width:800px){.cards.two{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.card .credit{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-top:16px;padding-top:12px;border-top:1px solid var(--line);font-size:18px;line-height:24px;letter-spacing:-0.4px;color:var(--ink);font-variant-numeric:tabular-nums}
+.card .credit span{font-size:13px;color:var(--muted);letter-spacing:0}
+.promo-hl{display:grid;gap:28px}
+@media (min-width:900px){.promo-hl{grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:56px;align-items:end}}
+.promo-hl .plate{aspect-ratio:3/2;margin:0}
+.promo-hl .desc{color:var(--muted);max-width:46ch;margin-bottom:28px}
+.promo-table th[scope="row"] a{text-decoration:none}
+.promo-table th[scope="row"] a:hover{text-decoration:underline;text-underline-offset:4px}
+.promo-table th[scope="row"]{color:var(--ink)!important}
+.promo-table th b{font-weight:400;font-size:11px;color:var(--accent);margin-left:8px;letter-spacing:.04em}
+.promo-table .ko{display:block;font-size:12px;color:var(--muted)}
+.promo-table td.c{font-size:16px}
+.quote-sheet{margin-top:48px;max-width:640px;background:var(--bg);padding:24px 24px 8px}
+.quote-sheet .eyebrow{margin-bottom:12px}
+.quote-sheet dl{margin:0}
+.quote-sheet dl div{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-top:1px solid var(--line);font-size:14px;line-height:21px}
+.quote-sheet dt{color:var(--muted)}
+.quote-sheet dd{margin:0;text-align:right}
+.quote-sheet .minus dt,.quote-sheet .minus dd{color:var(--accent)}
+.quote-sheet .sum{border-top:1px solid var(--ink)!important}
+.quote-sheet .sum dt{color:var(--ink)}
+.terms{margin:0;padding-left:20px;display:grid;gap:10px;max-width:80ch;color:var(--muted);font-size:14px;line-height:22px}
+@media (max-width:599px){.promo-table table{min-width:0}.promo-table tr > :nth-child(2){display:none}}
