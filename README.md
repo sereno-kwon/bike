@@ -58,6 +58,7 @@ tools/promotion_page.py 프로모션 페이지 템플릿 (빌드 크레딧 설�
 BMW 모토라드 월별 프로모션 페이지 구성(하이라이트 모델, 포커스 모델, 모델별 혜택표, 공통 혜택, 유의사항)을 따릅니다. 혜택은 현금 할인 대신 빌드 크레딧(대상 브랜드 부품 업그레이드 전용 크레딧)입니다. 루비워크샵 직접 판매 전용이며 루비서플라이 거래처는 대상이 아닙니다.
 
 - 매달 `data/promotion.json`의 month, monthLabel, period, periodShort, seo, highlight, focus, models만 바꾸고 `python3 tools/build.py`를 실행합니다.
+- 빌드 크레딧은 모델의 `frame`(프레임 가격) x `rate`(%)로 계산합니다. 모델에 `credit`을 직접 적으면 그 금액(정액)을 씁니다. 하이라이트·포커스 카드의 금액은 models에서 같은 slug의 금액을 가져옵니다.
 - 빌드하면 `promotion/index.html`, 메인 페이지 머리의 안내 띠(`<!-- build:promo -->`), sitemap.xml, 404 주소 목록이 함께 바뀝니다.
 - 프로모션이 없는 달은 `active`를 false로 둡니다. 메인 안내 띠가 빠지고 sitemap에서 제외되며 페이지는 noindex가 됩니다.
 - 빌드 크레딧 설명, 사용 방법, 유의사항, FAQ 문구는 매달 같으므로 `tools/promotion_page.py`에 있습니다.

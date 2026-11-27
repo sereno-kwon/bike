@@ -25,14 +25,36 @@ def man(n):
     return f"{n // 10000:,}만원" if n % 10000 == 0 else won(n)
 
 
+def credit(m, p):
+    """Fixed credit if the model has one, otherwise frame price x rate (%)."""
+    if m.get("credit"):
+        return m["credit"]
+    return m["frame"] * p["rate"] // 100
+
+
+def resolve(p):
+    """Copy each model's credit onto the highlight and focus cards (same slug)."""
+    by_slug = {m["slug"]: m for m in p["models"]}
+    for m in [p["highlight"]] + p["focus"]:
+        src = by_slug[m["slug"]]
+        m["credit"] = credit(src, p)
+        m["byRate"] = not src.get("credit")
+    return p
+
+
 def max_credit(p):
-    return max(m["credit"] for m in p["models"])
+    return max(credit(m, p) for m in p["models"])
+
+
+def fixed_models(p):
+    return [m for m in p["models"] if m.get("credit")]
 
 
 # ---------------------------------------------------------------- fixed copy
 
 TERMS = [
     "{period} 결제하신 주문에 적용됩니다.",
+    "빌드 크레딧은 대상 모델 프레임(프레임셋) 정가의 {rate}%입니다. 표의 금액은 시작 가격 기준이며, 사이즈와 사양에 따라 프레임 가격이 달라지면 크레딧도 함께 달라집니다. {fixed}",
     "루비워크샵(반포 쇼룸, 전화, 카카오톡 상담)에서 구매하시는 경우에만 적용되며, 다른 판매점에서 구매하신 자전거는 대상이 아닙니다.",
     "자전거 1대당 1회, 대상 모델과 함께 구성하는 부품에만 사용하실 수 있습니다.",
     "대상 브랜드 부품의 정가에서 차감됩니다. 공임, 다른 브랜드 부품, 의류와 용품에는 사용하실 수 없습니다.",
@@ -44,6 +66,8 @@ TERMS = [
 ]
 
 FAQ = [
+    ("크레딧 금액은 어떻게 정해지나요?",
+     "고르신 프레임(프레임셋) 정가의 5%입니다. 프레임 가격이 사이즈나 사양에 따라 달라지면 크레딧도 같은 비율로 정해집니다. 몰튼 SST 와이드와 TSR 9처럼 정해진 금액으로 드리는 모델은 표에 따로 적어 두었습니다."),
     ("빌드 크레딧은 할인과 무엇이 다른가요?",
      "자전거 가격은 그대로이고, 크레딧 금액만큼 대상 브랜드 부품을 더 좋은 것으로 고르실 수 있습니다. 견적서에는 부품이 정가로 적히고, 아래에 빌드 크레딧이 따로 차감되어 받으시는 혜택이 그대로 보입니다."),
     ("프레임셋만 구매해도 받을 수 있나요?",
@@ -85,7 +109,7 @@ def sec_hero(p):
       <div>
         <p class="eyebrow badge">Promotion <b>{y}. {int(mo)}</b></p>
         <h1>{h["title"]}<span class="sub">{h["sub"]}</span></h1>
-        <p class="price">빌드 크레딧 최대 {won(max_credit(p))}<small>{p["period"]}</small></p>
+        <p class="price">프레임 가격의 {p["rate"]}%를 빌드 크레딧으로<small>{p["period"]}</small></p>
       </div>
       <div>
         <p class="desc">{h["desc"]}</p>
@@ -118,6 +142,13 @@ def model_card(m, size="h3"):
       </a>"""
 
 
+def hl_num(p, hl):
+    if hl["byRate"]:
+        return (f'<div class="num"><div class="k">빌드 크레딧, 프레임 가격의</div><div class="big">{p["rate"]}<small>%</small></div>'
+                f'<div class="k">프레임셋 시작 가격 기준 {won(hl["credit"])}</div></div>')
+    return f'<div class="num"><div class="k">빌드 크레딧</div><div class="big">{hl["credit"] // 10000}<small>만원</small></div></div>'
+
+
 def sec_models(p):
     hl = p["highlight"]
     focus = "\n      ".join(model_card(m) for m in p["focus"])
@@ -126,7 +157,7 @@ def sec_models(p):
         tier = f' <b>{a(m["tier"])}</b>' if m.get("tier") else ""
         rows.append(
             f'<tr><th scope="row"><a href="/{a(m["slug"])}/">{m["name"]}</a>{tier}<span class="ko">{m["ko"]}</span></th>'
-            f'<td>{m["price"]}</td><td class="c">{won(m["credit"])}</td></tr>')
+            f'<td>{m["price"]}</td><td class="c">{won(credit(m, p))}<span class="ko">{"정액" if m.get("credit") else "프레임 가격의 " + str(p["rate"]) + "%"}</span></td></tr>')
     rows = "\n          ".join(rows)
     return f"""<section id="models" class="wrap sec">
     <div class="hd">
@@ -137,7 +168,7 @@ def sec_models(p):
       {plate(hl["img"])}
       <div>
         <p class="desc">{hl["desc"]}</p>
-        <div class="num"><div class="k">빌드 크레딧</div><div class="big">{hl["credit"] // 10000}<small>만원</small></div></div>
+        {hl_num(p, hl)}
         <span class="go">모델 페이지 보기</span>
       </div>
     </a>
@@ -156,14 +187,25 @@ def sec_models(p):
     </div>
     <div class="geo promo-table">
       <table>
-        <thead><tr><th scope="col">모델</th><th scope="col">시작 가격</th><th scope="col">빌드 크레딧</th></tr></thead>
+        <thead><tr><th scope="col">모델</th><th scope="col">기준 가격</th><th scope="col">빌드 크레딧</th></tr></thead>
         <tbody>
           {rows}
         </tbody>
       </table>
     </div>
-    <p class="gnote">시작 가격은 각 모델 페이지 기준이며, 실제 금액은 사이즈와 부품 구성에 따라 달라집니다.</p>
+    <p class="gnote">빌드 크레딧은 프레임(프레임셋) 가격의 {p["rate"]}%이며, 표의 금액은 시작 가격 기준입니다. 사이즈와 사양에 따라 프레임 가격이 달라지면 크레딧도 함께 달라집니다. {fixed_note(p)}</p>
   </section>"""
+
+
+def fixed_note(p):
+    f = fixed_models(p)
+    if not f:
+        return ""
+    ko = [m["ko"] for m in f]
+    names = ko[0] if len(ko) == 1 else ", ".join(ko[:-1]) + "와 " + ko[-1]
+    amts = {credit(m, p) for m in f}
+    amt = man(amts.pop()) + "으로" if len(amts) == 1 else "표에 적힌 금액으로"
+    return f"{names}는 {amt} 정해져 있습니다."
 
 
 def sec_credit(p):
@@ -180,7 +222,7 @@ def sec_credit(p):
       </div>
     </div>
     <div class="nums four" style="margin-top:64px">
-      <div class="num"><div class="big">{max_credit(p) // 10000}<small>만원</small></div><div class="k">최대 빌드 크레딧</div></div>
+      <div class="num"><div class="big">{p["rate"]}<small>%</small></div><div class="k">프레임 가격 기준 빌드 크레딧</div></div>
       <div class="num"><div class="big">{n_brands}<small>브랜드</small></div><div class="k">크레딧을 쓸 수 있는 부품 브랜드</div></div>
       <div class="num"><div class="big">1<small>대 1회</small></div><div class="k">자전거 1대당 한 번, 빌드 확정 시 사용</div></div>
       <div class="num"><div class="big">{p["periodShort"].split("까지")[0]}<small>까지</small></div><div class="k">{p["period"]}</div></div>
@@ -254,7 +296,7 @@ def sec_examples(p):
 
 
 def sec_terms(p):
-    items = "\n      ".join(f"<li>{t.format(period=p['period'])}</li>" for t in TERMS)
+    items = "\n      ".join(f"<li>{t.format(period=p['period'], rate=p['rate'], fixed=fixed_note(p)).strip()}</li>" for t in TERMS)
     return f"""<section id="terms" class="wrap sec">
     <div class="hd">
       <p class="eyebrow">Terms</p>
@@ -324,17 +366,19 @@ def tabs():
 
 def band_for_index(p):
     """Notice band under the header of index.html while a promotion is active."""
+    p = resolve(json.loads(json.dumps(p)))
     if not p.get("active"):
         return ""
     return f"""<div class="band">
     <div class="wrap">
-      <p>{p["monthLabel"]} 프로모션. 루비워크샵에서 빌드하시면 부품 업그레이드에 쓰실 수 있는 빌드 크레딧을 최대 {man(max_credit(p))}까지 드립니다.</p>
+      <p>{p["monthLabel"]} 프로모션. 루비워크샵에서 빌드하시면 프레임 가격의 {p["rate"]}%를 부품 업그레이드에 쓰실 수 있는 빌드 크레딧으로 드립니다.</p>
       <a class="link" href="/promotion/" data-ga="promo-band">프로모션 보기</a>
     </div>
   </div>"""
 
 
 def render(p):
+    p = resolve(json.loads(json.dumps(p)))
     seo, og = p["seo"], p["hero"]["img"]
     robots = "index,follow,max-image-preview:large" if p.get("active") else "noindex,follow"
     body = "\n\n  ".join([sec_hero(p), sec_band(p), sec_models(p), sec_credit(p), sec_how(p), sec_brands(p),
